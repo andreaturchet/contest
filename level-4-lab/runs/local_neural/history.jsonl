@@ -1,0 +1,44 @@
+{"iteration": 1, "new_samples": 546, "replay": 546, "generation_seconds": 9.767804375034757, "loss": [2.5930608020109287, 0.8204138769822962], "elapsed_seconds": 10.470040583983064}
+{"iteration": 2, "new_samples": 544, "replay": 1090, "generation_seconds": 11.737346375011839, "loss": [2.609561429304235, 0.7359321608262903], "elapsed_seconds": 22.928604374988936, "incumbent_wins": 8, "baseline_wins": 9, "provisional_promotion": true}
+{"iteration": 3, "new_samples": 504, "replay": 1594, "generation_seconds": 10.644332249998115, "loss": [2.5602733771006267, 0.8102627992630005], "elapsed_seconds": 44.499855541973375}
+{"iteration": 4, "new_samples": 684, "replay": 2278, "generation_seconds": 13.281665040994994, "loss": [2.51388152440389, 0.7855956724711827], "elapsed_seconds": 58.71394412498921, "incumbent_wins": 5, "baseline_wins": 7}
+{"iteration": 5, "new_samples": 470, "replay": 2748, "generation_seconds": 8.687398708076216, "loss": [2.536839246749878, 0.8097414629799979], "elapsed_seconds": 78.23908866697457}
+{"iteration": 6, "new_samples": 573, "replay": 3321, "generation_seconds": 9.878365041920915, "loss": [2.4906301077674415, 0.846971729222466], "elapsed_seconds": 88.76895716704894, "incumbent_wins": 9, "baseline_wins": 7, "provisional_promotion": true}
+{"iteration": 7, "new_samples": 558, "replay": 3879, "generation_seconds": 10.004406417021528, "loss": [2.4988811577067658, 0.8564159694839927], "elapsed_seconds": 112.9307249999838}
+{"iteration": 8, "new_samples": 479, "replay": 4358, "generation_seconds": 9.170121332979761, "loss": [2.473090512411935, 0.8350838039602552], "elapsed_seconds": 122.70978687505703, "incumbent_wins": 6, "baseline_wins": 6}
+{"iteration": 9, "new_samples": 551, "replay": 4909, "generation_seconds": 11.047568083973601, "loss": [2.4571202081792496, 0.8489918323124156], "elapsed_seconds": 144.78278999996837}
+{"iteration": 10, "new_samples": 437, "replay": 5346, "generation_seconds": 9.057085792068392, "loss": [2.442988267311683, 0.8264308067468497], "elapsed_seconds": 154.43635237496346, "incumbent_wins": 7, "baseline_wins": 9}
+{"iteration": 11, "new_samples": 580, "replay": 5926, "generation_seconds": 11.73283333296422, "loss": [2.4440777434243097, 0.830352783203125], "elapsed_seconds": 176.69553529203404}
+{"iteration": 12, "new_samples": 473, "replay": 6399, "generation_seconds": 8.214724750025198, "loss": [2.4287300620760237, 0.8431781232357025], "elapsed_seconds": 185.5733541250229, "incumbent_wins": 6, "baseline_wins": 9}
+{"iteration": 13, "new_samples": 571, "replay": 6970, "generation_seconds": 10.528369958978146, "loss": [2.421386340085198, 0.8605264074662152], "elapsed_seconds": 11.197505749994889}
+{"iteration": 14, "new_samples": 540, "replay": 7510, "generation_seconds": 9.254394916002639, "loss": [2.431889310479164, 0.8496999330818653], "elapsed_seconds": 21.103041709051467}
+{"iteration": 15, "new_samples": 452, "replay": 7962, "generation_seconds": 7.697421915945597, "loss": [2.3964002983910695, 0.859697163105011], "elapsed_seconds": 29.411088917055167}
+{"iteration": 16, "new_samples": 468, "replay": 8430, "generation_seconds": 8.904487624997273, "loss": [2.408903854233878, 0.859841947044645], "elapsed_seconds": 39.03604625002481, "incumbent_wins": 14, "baseline_wins": 16}
+{"iteration": 17, "new_samples": 529, "replay": 8959, "generation_seconds": 8.485915582976304, "loss": [2.3856117129325867, 0.8498453721404076], "elapsed_seconds": 68.70425420906395}
+{"iteration": 18, "new_samples": 455, "replay": 9414, "generation_seconds": 9.353718791971914, "loss": [2.385253293173654, 0.8307567451681409], "elapsed_seconds": 78.68121287506074}
+{"iteration": 19, "new_samples": 537, "replay": 9951, "generation_seconds": 10.177596915978938, "loss": [2.402692213654518, 0.8374113887548447], "elapsed_seconds": 89.60159970901441}
+{"iteration": 20, "new_samples": 560, "replay": 10511, "generation_seconds": 10.403649457963184, "loss": [2.3819967297946705, 0.846014447071973], "elapsed_seconds": 100.82534729200415, "incumbent_wins": 17, "baseline_wins": 15, "provisional_promotion": true}
+{"iteration": 21, "new_samples": 470, "replay": 10981, "generation_seconds": 8.60996629204601, "loss": [2.344808578491211, 0.8457733733313424], "elapsed_seconds": 130.96419808408245}
+{"iteration": 22, "new_samples": 534, "replay": 11515, "generation_seconds": 9.39206387498416, "loss": [2.353594645857811, 0.8199678622186184], "elapsed_seconds": 141.1465706670424}
+{"iteration": 23, "new_samples": 587, "replay": 12102, "generation_seconds": 11.268716958002187, "loss": [2.3550998502307467, 0.7990815043449402], "elapsed_seconds": 153.4143533750903}
+{"iteration": 24, "new_samples": 433, "replay": 12535, "generation_seconds": 8.023112667025998, "loss": [2.3513729755695048, 0.8164954781532288], "elapsed_seconds": 162.11408687499352, "incumbent_wins": 16, "baseline_wins": 16, "provisional_promotion": true}
+{"iteration": 25, "new_samples": 534, "replay": 13069, "generation_seconds": 10.22154991608113, "loss": [2.36998151242733, 0.829466100782156], "elapsed_seconds": 194.1556605839869}
+{"iteration": 26, "new_samples": 522, "replay": 13591, "generation_seconds": 10.123866667039692, "loss": [2.339782103896141, 0.8195545822381973], "elapsed_seconds": 205.1441986670252}
+{"iteration": 27, "new_samples": 452, "replay": 14043, "generation_seconds": 8.525278209010139, "loss": [2.3254576921463013, 0.8361929825374058], "elapsed_seconds": 214.38692320906557}
+{"iteration": 28, "new_samples": 583, "replay": 14626, "generation_seconds": 9.697357332915999, "loss": [2.305585781733195, 0.8406083120240105], "elapsed_seconds": 224.88291612500325, "incumbent_wins": 13, "baseline_wins": 15}
+{"iteration": 29, "new_samples": 457, "replay": 15083, "generation_seconds": 7.869313000002876, "loss": [2.3591128417423795, 0.8339747020176479], "elapsed_seconds": 253.2909154590452}
+{"iteration": 30, "new_samples": 419, "replay": 15502, "generation_seconds": 7.605936708045192, "loss": [2.3314680319565992, 0.8184275260338416], "elapsed_seconds": 261.5021274590399}
+{"iteration": 31, "new_samples": 484, "replay": 15986, "generation_seconds": 9.430561624933034, "loss": [2.3431134382883707, 0.8049388686815898], "elapsed_seconds": 271.7194989999989}
+{"iteration": 32, "new_samples": 526, "replay": 16512, "generation_seconds": 8.955398082965985, "loss": [2.336680755019188, 0.8063744343817234], "elapsed_seconds": 281.48646700009704, "incumbent_wins": 15, "baseline_wins": 12, "provisional_promotion": true}
+{"iteration": 33, "new_samples": 475, "replay": 16987, "generation_seconds": 9.255665375036187, "loss": [2.330340095928737, 0.8232842215469905], "elapsed_seconds": 310.8905417920323}
+{"iteration": 34, "new_samples": 478, "replay": 17465, "generation_seconds": 8.06959608301986, "loss": [2.315761889730181, 0.8099483592169625], "elapsed_seconds": 319.68973566708155}
+{"iteration": 35, "new_samples": 469, "replay": 17934, "generation_seconds": 8.803297708975151, "loss": [2.3469455071858, 0.8118790345532554], "elapsed_seconds": 329.33288208406884}
+{"iteration": 36, "new_samples": 526, "replay": 18460, "generation_seconds": 10.840897707967088, "loss": [2.3034935742616653, 0.7916404269635677], "elapsed_seconds": 341.1268437500112, "incumbent_wins": 8, "baseline_wins": 15}
+{"iteration": 37, "new_samples": 515, "replay": 18975, "generation_seconds": 7.66144637495745, "loss": [2.2910531908273697, 0.8263625167310238], "elapsed_seconds": 370.1506212090608}
+{"iteration": 38, "new_samples": 499, "replay": 19474, "generation_seconds": 9.761515374993905, "loss": [2.290206241607666, 0.8297730724016825], "elapsed_seconds": 380.69408475002274}
+{"iteration": 39, "new_samples": 508, "replay": 19982, "generation_seconds": 9.050561040989123, "loss": [2.335282643636068, 0.8125941514968872], "elapsed_seconds": 390.5991955420468}
+{"iteration": 40, "new_samples": 476, "replay": 20458, "generation_seconds": 8.308957375003956, "loss": [2.3056110995156422, 0.7981556951999664], "elapsed_seconds": 399.6206569169881, "incumbent_wins": 12, "baseline_wins": 12}
+{"iteration": 41, "new_samples": 560, "replay": 21018, "generation_seconds": 9.097587957978249, "loss": [2.309761734569774, 0.788563749369453], "elapsed_seconds": 429.26067183399573}
+{"iteration": 42, "new_samples": 554, "replay": 21572, "generation_seconds": 10.835055582923815, "loss": [2.2887741677901325, 0.7992505746729234], "elapsed_seconds": 440.9993223750498}
+{"iteration": 43, "new_samples": 535, "replay": 22107, "generation_seconds": 8.998027583002113, "loss": [2.2788001149892807, 0.8066243603825569], "elapsed_seconds": 450.8540009170538}
+{"iteration": 44, "new_samples": 514, "replay": 22621, "generation_seconds": 9.308116417028941, "loss": [2.278198331594467, 0.808694627135992], "elapsed_seconds": 460.9517478750786, "incumbent_wins": 13, "baseline_wins": 14}

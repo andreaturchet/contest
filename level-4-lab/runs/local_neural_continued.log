@@ -1,0 +1,319 @@
+Device=cpu; architecture={'channels': 32, 'blocks': 2}; parameters=51,164
+Baseline and original challenge files are frozen. Only this run directory changes.
+2026-10-23 16:41:18.329 Python[99291:19270499] 2026-10-23 16:41:18.329664 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:41:19.479 Python[99293:19270501] 2026-10-23 16:41:19.479934 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 13, "new_samples": 571, "replay": 6970, "generation_seconds": 10.528369958978146, "loss": [2.421386340085198, 0.8605264074662152], "elapsed_seconds": 11.197505749994889}
+2026-10-23 16:41:31.959 Python[99329:19270853] 2026-10-23 16:41:31.959653 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:41:32.446 Python[99330:19270854] 2026-10-23 16:41:32.446185 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 14, "new_samples": 540, "replay": 7510, "generation_seconds": 9.254394916002639, "loss": [2.431889310479164, 0.8496999330818653], "elapsed_seconds": 21.103041709051467}
+2026-10-23 16:41:39.484 Python[99367:19271096] 2026-10-23 16:41:39.484631 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:41:41.345 Python[99366:19271095] 2026-10-23 16:41:41.345741 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 15, "new_samples": 452, "replay": 7962, "generation_seconds": 7.697421915945597, "loss": [2.3964002983910695, 0.859697163105011], "elapsed_seconds": 29.411088917055167}
+2026-10-23 16:41:47.798 Python[99388:19271238] 2026-10-23 16:41:47.798393 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:41:49.526 Python[99389:19271239] 2026-10-23 16:41:49.526652 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:41:57.396 Python[99272:19270348] 2026-10-23 16:41:57.396017 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 16, "new_samples": 468, "replay": 8430, "generation_seconds": 8.904487624997273, "loss": [2.408903854233878, 0.859841947044645], "elapsed_seconds": 39.03604625002481, "incumbent_wins": 14, "baseline_wins": 16}
+2026-10-23 16:42:18.448 Python[99481:19272370] 2026-10-23 16:42:18.448706 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:42:20.389 Python[99482:19272371] 2026-10-23 16:42:20.389172 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 17, "new_samples": 529, "replay": 8959, "generation_seconds": 8.485915582976304, "loss": [2.3856117129325867, 0.8498453721404076], "elapsed_seconds": 68.70425420906395}
+2026-10-23 16:42:27.099 Python[99510:19272646] 2026-10-23 16:42:27.099918 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:42:29.336 Python[99509:19272645] 2026-10-23 16:42:29.336216 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 18, "new_samples": 455, "replay": 9414, "generation_seconds": 9.353718791971914, "loss": [2.385253293173654, 0.8307567451681409], "elapsed_seconds": 78.68121287506074}
+2026-10-23 16:42:37.089 Python[99543:19273043] 2026-10-23 16:42:37.089405 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:42:38.405 Python[99544:19273044] 2026-10-23 16:42:38.405741 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 19, "new_samples": 537, "replay": 9951, "generation_seconds": 10.177596915978938, "loss": [2.402692213654518, 0.8374113887548447], "elapsed_seconds": 89.60159970901441}
+2026-10-23 16:42:48.941 Python[99603:19273557] 2026-10-23 16:42:48.941706 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:42:51.041 Python[99604:19273558] 2026-10-23 16:42:51.041568 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 20, "new_samples": 560, "replay": 10511, "generation_seconds": 10.403649457963184, "loss": [2.3819967297946705, 0.846014447071973], "elapsed_seconds": 100.82534729200415, "incumbent_wins": 17, "baseline_wins": 15, "provisional_promotion": true}
+2026-10-23 16:43:20.176 Python[99741:19274745] 2026-10-23 16:43:20.176631 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:43:22.379 Python[99740:19274744] 2026-10-23 16:43:22.379069 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 21, "new_samples": 470, "replay": 10981, "generation_seconds": 8.60996629204601, "loss": [2.344808578491211, 0.8457733733313424], "elapsed_seconds": 130.96419808408245}
+2026-10-23 16:43:29.376 Python[99766:19275145] 2026-10-23 16:43:29.376063 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:43:31.630 Python[99767:19275147] 2026-10-23 16:43:31.630165 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 22, "new_samples": 534, "replay": 11515, "generation_seconds": 9.39206387498416, "loss": [2.353594645857811, 0.8199678622186184], "elapsed_seconds": 141.1465706670424}
+2026-10-23 16:43:41.986 Python[99808:19275459] 2026-10-23 16:43:41.986111 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:43:42.519 Python[99809:19275460] 2026-10-23 16:43:42.519391 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 23, "new_samples": 587, "replay": 12102, "generation_seconds": 11.268716958002187, "loss": [2.3550998502307467, 0.7990815043449402], "elapsed_seconds": 153.4143533750903}
+2026-10-23 16:43:51.927 Python[99869:19276041] 2026-10-23 16:43:51.926985 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:43:54.033 Python[99868:19276034] 2026-10-23 16:43:54.033029 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 24, "new_samples": 433, "replay": 12535, "generation_seconds": 8.023112667025998, "loss": [2.3513729755695048, 0.8164954781532288], "elapsed_seconds": 162.11408687499352, "incumbent_wins": 16, "baseline_wins": 16, "provisional_promotion": true}
+2026-10-23 16:44:21.629 Python[127:19277471] 2026-10-23 16:44:21.629800 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:44:22.592 Python[129:19277473] 2026-10-23 16:44:22.592843 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 25, "new_samples": 534, "replay": 13069, "generation_seconds": 10.22154991608113, "loss": [2.36998151242733, 0.829466100782156], "elapsed_seconds": 194.1556605839869}
+2026-10-23 16:44:33.814 Python[168:19277719] 2026-10-23 16:44:33.814043 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:44:35.019 Python[169:19277720] 2026-10-23 16:44:35.019633 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 26, "new_samples": 522, "replay": 13591, "generation_seconds": 10.123866667039692, "loss": [2.339782103896141, 0.8195545822381973], "elapsed_seconds": 205.1441986670252}
+2026-10-23 16:44:43.651 Python[211:19278109] 2026-10-23 16:44:43.651119 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:44:44.968 Python[210:19278108] 2026-10-23 16:44:44.968615 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 27, "new_samples": 452, "replay": 14043, "generation_seconds": 8.525278209010139, "loss": [2.3254576921463013, 0.8361929825374058], "elapsed_seconds": 214.38692320906557}
+2026-10-23 16:44:52.837 Python[233:19278356] 2026-10-23 16:44:52.837576 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:44:53.907 Python[234:19278357] 2026-10-23 16:44:53.907845 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 28, "new_samples": 583, "replay": 14626, "generation_seconds": 9.697357332915999, "loss": [2.305585781733195, 0.8406083120240105], "elapsed_seconds": 224.88291612500325, "incumbent_wins": 13, "baseline_wins": 15}
+2026-10-23 16:45:24.122 Python[328:19279163] 2026-10-23 16:45:24.122847 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:45:25.184 Python[329:19279164] 2026-10-23 16:45:25.184264 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 29, "new_samples": 457, "replay": 15083, "generation_seconds": 7.869313000002876, "loss": [2.3591128417423795, 0.8339747020176479], "elapsed_seconds": 253.2909154590452}
+2026-10-23 16:45:31.731 Python[373:19279381] 2026-10-23 16:45:31.731817 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:45:33.666 Python[372:19279380] 2026-10-23 16:45:33.666934 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 30, "new_samples": 419, "replay": 15502, "generation_seconds": 7.605936708045192, "loss": [2.3314680319565992, 0.8184275260338416], "elapsed_seconds": 261.5021274590399}
+2026-10-23 16:45:40.008 Python[406:19279674] 2026-10-23 16:45:40.008437 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:45:41.225 Python[407:19279675] 2026-10-23 16:45:41.225760 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 31, "new_samples": 484, "replay": 15986, "generation_seconds": 9.430561624933034, "loss": [2.3431134382883707, 0.8049388686815898], "elapsed_seconds": 271.7194989999989}
+2026-10-23 16:45:51.622 Python[447:19279944] 2026-10-23 16:45:51.622259 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:45:52.174 Python[448:19279945] 2026-10-23 16:45:52.174344 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 32, "new_samples": 526, "replay": 16512, "generation_seconds": 8.955398082965985, "loss": [2.336680755019188, 0.8063744343817234], "elapsed_seconds": 281.48646700009704, "incumbent_wins": 15, "baseline_wins": 12, "provisional_promotion": true}
+2026-10-23 16:46:19.270 Python[620:19280885] 2026-10-23 16:46:19.270242 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:46:21.818 Python[619:19280883] 2026-10-23 16:46:21.818710 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 33, "new_samples": 475, "replay": 16987, "generation_seconds": 9.255665375036187, "loss": [2.330340095928737, 0.8232842215469905], "elapsed_seconds": 310.8905417920323}
+2026-10-23 16:46:29.394 Python[688:19281216] 2026-10-23 16:46:29.394457 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:46:30.973 Python[689:19281217] 2026-10-23 16:46:30.973799 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 34, "new_samples": 478, "replay": 17465, "generation_seconds": 8.06959608301986, "loss": [2.315761889730181, 0.8099483592169625], "elapsed_seconds": 319.68973566708155}
+2026-10-23 16:46:39.061 Python[748:19281470] 2026-10-23 16:46:39.061466 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:46:41.008 Python[749:19281471] 2026-10-23 16:46:41.008860 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 35, "new_samples": 469, "replay": 17934, "generation_seconds": 8.803297708975151, "loss": [2.3469455071858, 0.8118790345532554], "elapsed_seconds": 329.33288208406884}
+2026-10-23 16:46:47.933 Python[844:19281822] 2026-10-23 16:46:47.932958 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:46:50.472 Python[843:19281821] 2026-10-23 16:46:50.472683 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 36, "new_samples": 526, "replay": 18460, "generation_seconds": 10.840897707967088, "loss": [2.3034935742616653, 0.7916404269635677], "elapsed_seconds": 341.1268437500112, "incumbent_wins": 8, "baseline_wins": 15}
+2026-10-23 16:47:20.222 Python[1175:19283118] 2026-10-23 16:47:20.222330 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:47:21.042 Python[1176:19283119] 2026-10-23 16:47:21.042770 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 37, "new_samples": 515, "replay": 18975, "generation_seconds": 7.66144637495745, "loss": [2.2910531908273697, 0.8263625167310238], "elapsed_seconds": 370.1506212090608}
+2026-10-23 16:47:30.249 Python[1243:19283414] 2026-10-23 16:47:30.249186 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:47:31.491 Python[1244:19283415] 2026-10-23 16:47:31.491316 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 38, "new_samples": 499, "replay": 19474, "generation_seconds": 9.761515374993905, "loss": [2.290206241607666, 0.8297730724016825], "elapsed_seconds": 380.69408475002274}
+2026-10-23 16:47:39.248 Python[1400:19283892] 2026-10-23 16:47:39.248786 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:47:41.529 Python[1398:19283891] 2026-10-23 16:47:41.529393 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 39, "new_samples": 508, "replay": 19982, "generation_seconds": 9.050561040989123, "loss": [2.335282643636068, 0.8125941514968872], "elapsed_seconds": 390.5991955420468}
+2026-10-23 16:47:49.083 Python[1503:19284251] 2026-10-23 16:47:49.083825 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:47:49.999 Python[1504:19284253] 2026-10-23 16:47:49.999094 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 40, "new_samples": 476, "replay": 20458, "generation_seconds": 8.308957375003956, "loss": [2.3056110995156422, 0.7981556951999664], "elapsed_seconds": 399.6206569169881, "incumbent_wins": 12, "baseline_wins": 12}
+2026-10-23 16:48:19.628 Python[1671:19285341] 2026-10-23 16:48:19.628894 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:48:20.458 Python[1672:19285342] 2026-10-23 16:48:20.458351 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 41, "new_samples": 560, "replay": 21018, "generation_seconds": 9.097587957978249, "loss": [2.309761734569774, 0.788563749369453], "elapsed_seconds": 429.26067183399573}
+2026-10-23 16:48:27.842 Python[1725:19285648] 2026-10-23 16:48:27.842868 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:48:29.886 Python[1724:19285646] 2026-10-23 16:48:29.886672 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 42, "new_samples": 554, "replay": 21572, "generation_seconds": 10.835055582923815, "loss": [2.2887741677901325, 0.7992505746729234], "elapsed_seconds": 440.9993223750498}
+2026-10-23 16:48:39.594 Python[1896:19286217] 2026-10-23 16:48:39.594753 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:48:40.829 Python[1897:19286219] 2026-10-23 16:48:40.829044 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 43, "new_samples": 535, "replay": 22107, "generation_seconds": 8.998027583002113, "loss": [2.2788001149892807, 0.8066243603825569], "elapsed_seconds": 450.8540009170538}
+2026-10-23 16:48:50.462 Python[1952:19286659] 2026-10-23 16:48:50.462710 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:48:51.945 Python[1953:19286660] 2026-10-23 16:48:51.945047 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 44, "new_samples": 514, "replay": 22621, "generation_seconds": 9.308116417028941, "loss": [2.278198331594467, 0.808694627135992], "elapsed_seconds": 460.9517478750786, "incumbent_wins": 13, "baseline_wins": 14}
+Game 1/200: A loses as CYAN, 28 actions
+Game 2/200: A loses as MAGENTA, 29 actions
+Game 3/200: A loses as CYAN, 24 actions
+Game 4/200: A wins as MAGENTA, 32 actions
+Game 5/200: A loses as CYAN, 24 actions
+Game 6/200: A wins as MAGENTA, 20 actions
+Game 7/200: A wins as CYAN, 10 actions
+Game 8/200: A wins as MAGENTA, 36 actions
+Game 9/200: A wins as CYAN, 30 actions
+Game 10/200: A loses as MAGENTA, 6 actions
+Game 11/200: A wins as CYAN, 26 actions
+Game 12/200: A wins as MAGENTA, 27 actions
+Game 13/200: A wins as CYAN, 22 actions
+Game 14/200: A loses as MAGENTA, 22 actions
+Game 15/200: A wins as CYAN, 26 actions
+Game 16/200: A wins as MAGENTA, 32 actions
+Game 17/200: A wins as CYAN, 22 actions
+Game 18/200: A loses as MAGENTA, 26 actions
+Game 19/200: A wins as CYAN, 34 actions
+Game 20/200: A wins as MAGENTA, 40 actions
+Game 21/200: A wins as CYAN, 34 actions
+Game 22/200: A wins as MAGENTA, 40 actions
+Game 23/200: A wins as CYAN, 26 actions
+Game 24/200: A wins as MAGENTA, 32 actions
+Game 25/200: A wins as CYAN, 34 actions
+Game 26/200: A loses as MAGENTA, 38 actions
+Game 27/200: A wins as CYAN, 22 actions
+Game 28/200: A wins as MAGENTA, 32 actions
+Game 29/200: A wins as CYAN, 22 actions
+Game 30/200: A loses as MAGENTA, 26 actions
+Game 31/200: A wins as CYAN, 34 actions
+Game 32/200: A loses as MAGENTA, 18 actions
+Game 33/200: A wins as CYAN, 34 actions
+Game 34/200: A wins as MAGENTA, 28 actions
+Game 35/200: A loses as CYAN, 28 actions
+Game 36/200: A wins as MAGENTA, 36 actions
+Game 37/200: A wins as CYAN, 6 actions
+Game 38/200: A loses as MAGENTA, 38 actions
+Game 39/200: A wins as CYAN, 34 actions
+Game 40/200: A wins as MAGENTA, 32 actions
+Game 41/200: A loses as CYAN, 44 actions
+Game 42/200: A wins as MAGENTA, 27 actions
+Game 43/200: A loses as CYAN, 31 actions
+Game 44/200: A wins as MAGENTA, 36 actions
+Game 45/200: A wins as CYAN, 22 actions
+Game 46/200: A wins as MAGENTA, 12 actions
+Game 47/200: A loses as CYAN, 20 actions
+Game 48/200: A loses as MAGENTA, 22 actions
+Game 49/200: A wins as CYAN, 30 actions
+Game 50/200: A wins as MAGENTA, 32 actions
+Game 51/200: A wins as CYAN, 18 actions
+Game 52/200: A loses as MAGENTA, 33 actions
+Game 53/200: A loses as CYAN, 44 actions
+Game 54/200: A wins as MAGENTA, 36 actions
+Game 55/200: A wins as CYAN, 30 actions
+Game 56/200: A wins as MAGENTA, 32 actions
+Game 57/200: A wins as CYAN, 26 actions
+Game 58/200: A loses as MAGENTA, 26 actions
+Game 59/200: A loses as CYAN, 24 actions
+Game 60/200: A wins as MAGENTA, 28 actions
+Game 61/200: A wins as CYAN, 26 actions
+Game 62/200: A wins as MAGENTA, 20 actions
+Game 63/200: A wins as CYAN, 34 actions
+Game 64/200: A loses as MAGENTA, 26 actions
+Game 65/200: A wins as CYAN, 22 actions
+Game 66/200: A wins as MAGENTA, 32 actions
+Game 67/200: A loses as CYAN, 28 actions
+Game 68/200: A wins as MAGENTA, 20 actions
+Game 69/200: A loses as CYAN, 32 actions
+Game 70/200: A wins as MAGENTA, 32 actions
+Game 71/200: A wins as CYAN, 30 actions
+Game 72/200: A loses as MAGENTA, 22 actions
+Game 73/200: A wins as CYAN, 34 actions
+Game 74/200: A loses as MAGENTA, 33 actions
+Game 75/200: A loses as CYAN, 20 actions
+Game 76/200: A loses as MAGENTA, 34 actions
+Game 77/200: A wins as CYAN, 26 actions
+Game 78/200: A wins as MAGENTA, 32 actions
+Game 79/200: A wins as CYAN, 22 actions
+Game 80/200: A loses as MAGENTA, 18 actions
+Game 81/200: A loses as CYAN, 27 actions
+Game 82/200: A wins as MAGENTA, 20 actions
+Game 83/200: A loses as CYAN, 32 actions
+Game 84/200: A wins as MAGENTA, 66 actions
+Game 85/200: A loses as CYAN, 52 actions
+Game 86/200: A wins as MAGENTA, 34 actions
+Game 87/200: A loses as CYAN, 28 actions
+Game 88/200: A wins as MAGENTA, 36 actions
+Game 89/200: A wins as CYAN, 22 actions
+Game 90/200: A loses as MAGENTA, 30 actions
+Game 91/200: A wins as CYAN, 30 actions
+Game 92/200: A loses as MAGENTA, 29 actions
+Game 93/200: A wins as CYAN, 42 actions
+Game 94/200: A wins as MAGENTA, 32 actions
+Game 95/200: A wins as CYAN, 42 actions
+Game 96/200: A wins as MAGENTA, 32 actions
+Game 97/200: A wins as CYAN, 30 actions
+Game 98/200: A wins as MAGENTA, 24 actions
+Game 99/200: A wins as CYAN, 22 actions
+Game 100/200: A wins as MAGENTA, 32 actions
+Game 101/200: A wins as CYAN, 34 actions
+Game 102/200: A wins as MAGENTA, 28 actions
+Game 103/200: A loses as CYAN, 31 actions
+Game 104/200: A wins as MAGENTA, 32 actions
+Game 105/200: A wins as CYAN, 38 actions
+Game 106/200: A wins as MAGENTA, 28 actions
+Game 107/200: A wins as CYAN, 18 actions
+Game 108/200: A loses as MAGENTA, 70 actions
+Game 109/200: A loses as CYAN, 32 actions
+Game 110/200: A wins as MAGENTA, 36 actions
+Game 111/200: A loses as CYAN, 32 actions
+Game 112/200: A wins as MAGENTA, 40 actions
+Game 113/200: A loses as CYAN, 68 actions
+Game 114/200: A loses as MAGENTA, 70 actions
+Game 115/200: A loses as CYAN, 35 actions
+Game 116/200: A wins as MAGENTA, 32 actions
+Game 117/200: A wins as CYAN, 13 actions
+Game 118/200: A wins as MAGENTA, 48 actions
+Game 119/200: A wins as CYAN, 22 actions
+Game 120/200: A loses as MAGENTA, 22 actions
+Game 121/200: A wins as CYAN, 38 actions
+Game 122/200: A wins as MAGENTA, 32 actions
+Game 123/200: A loses as CYAN, 68 actions
+Game 124/200: A loses as MAGENTA, 33 actions
+Game 125/200: A loses as CYAN, 31 actions
+Game 126/200: A wins as MAGENTA, 32 actions
+Game 127/200: A loses as CYAN, 27 actions
+Game 128/200: A wins as MAGENTA, 28 actions
+Game 129/200: A loses as CYAN, 24 actions
+Game 130/200: A wins as MAGENTA, 32 actions
+Game 131/200: A wins as CYAN, 30 actions
+Game 132/200: A wins as MAGENTA, 28 actions
+Game 133/200: A wins as CYAN, 22 actions
+Game 134/200: A wins as MAGENTA, 28 actions
+Game 135/200: A loses as CYAN, 68 actions
+Game 136/200: A wins as MAGENTA, 32 actions
+Game 137/200: A wins as CYAN, 26 actions
+Game 138/200: A loses as MAGENTA, 26 actions
+Game 139/200: A wins as CYAN, 34 actions
+Game 140/200: A wins as MAGENTA, 40 actions
+Game 141/200: A loses as CYAN, 31 actions
+Game 142/200: A wins as MAGENTA, 32 actions
+Game 143/200: A loses as CYAN, 16 actions
+Game 144/200: A wins as MAGENTA, 36 actions
+Game 145/200: A wins as CYAN, 18 actions
+Game 146/200: A wins as MAGENTA, 32 actions
+Game 147/200: A loses as CYAN, 68 actions
+Game 148/200: A loses as MAGENTA, 26 actions
+Game 149/200: A wins as CYAN, 34 actions
+Game 150/200: A wins as MAGENTA, 24 actions
+Game 151/200: A wins as CYAN, 22 actions
+Game 152/200: A loses as MAGENTA, 30 actions
+Game 153/200: A loses as CYAN, 31 actions
+Game 154/200: A loses as MAGENTA, 22 actions
+Game 155/200: A wins as CYAN, 30 actions
+Game 156/200: A loses as MAGENTA, 30 actions
+Game 157/200: A loses as CYAN, 28 actions
+Game 158/200: A wins as MAGENTA, 32 actions
+Game 159/200: A wins as CYAN, 34 actions
+Game 160/200: A wins as MAGENTA, 32 actions
+Game 161/200: A wins as CYAN, 26 actions
+Game 162/200: A wins as MAGENTA, 32 actions
+Game 163/200: A wins as CYAN, 30 actions
+Game 164/200: A wins as MAGENTA, 32 actions
+Game 165/200: A wins as CYAN, 28 actions
+Game 166/200: A wins as MAGENTA, 20 actions
+Game 167/200: A loses as CYAN, 31 actions
+Game 168/200: A loses as MAGENTA, 30 actions
+Game 169/200: A wins as CYAN, 18 actions
+Game 170/200: A wins as MAGENTA, 36 actions
+Game 171/200: A wins as CYAN, 26 actions
+Game 172/200: A loses as MAGENTA, 62 actions
+Game 173/200: A wins as CYAN, 18 actions
+Game 174/200: A wins as MAGENTA, 48 actions
+Game 175/200: A loses as CYAN, 28 actions
+Game 176/200: A loses as MAGENTA, 33 actions
+Game 177/200: A loses as CYAN, 28 actions
+Game 178/200: A wins as MAGENTA, 28 actions
+Game 179/200: A loses as CYAN, 23 actions
+Game 180/200: A wins as MAGENTA, 24 actions
+Game 181/200: A wins as CYAN, 18 actions
+Game 182/200: A wins as MAGENTA, 27 actions
+Game 183/200: A wins as CYAN, 18 actions
+Game 184/200: A loses as MAGENTA, 25 actions
+Game 185/200: A wins as CYAN, 42 actions
+Game 186/200: A wins as MAGENTA, 32 actions
+Game 187/200: A loses as CYAN, 24 actions
+Game 188/200: A wins as MAGENTA, 32 actions
+Game 189/200: A loses as CYAN, 63 actions
+Game 190/200: A wins as MAGENTA, 16 actions
+Game 191/200: A wins as CYAN, 18 actions
+Game 192/200: A loses as MAGENTA, 62 actions
+Game 193/200: A wins as CYAN, 30 actions
+Game 194/200: A wins as MAGENTA, 48 actions
+Game 195/200: A loses as CYAN, 31 actions
+Game 196/200: A loses as MAGENTA, 30 actions
+Game 197/200: A wins as CYAN, 14 actions
+Game 198/200: A wins as MAGENTA, 32 actions
+Game 199/200: A wins as CYAN, 42 actions
+Game 200/200: A wins as MAGENTA, 28 actions
+{
+  "model_a": "runs/local_neural/best.onnx",
+  "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/baselines/current.onnx",
+  "games": 200,
+  "wins": 129,
+  "win_rate": 0.645,
+  "wilson_95": [
+    0.5765211307549043,
+    0.7080137245956883
+  ],
+  "seed": 3000000,
+  "simulations": 100,
+  "seconds": 70.33292716706637,
+  "sha256_a": "2bb111729d61a8474e317661af98a72ceb3827fa76602dc9e0083413fafe9415",
+  "sha256_b": "88814410deb59295d270a17cbf421091569d04c067ab4a643147f333345f8e41",
+  "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+  "cyan_wins": 62,
+  "magenta_wins": 67
+}
+Finished through iteration 44. Artifacts: runs/local_neural

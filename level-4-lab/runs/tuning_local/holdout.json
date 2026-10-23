@@ -1,0 +1,55 @@
+{
+  "model_a": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/tuning_local/candidate.onnx",
+  "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/baselines/current.onnx",
+  "games": 200,
+  "wins": 100,
+  "win_rate": 0.5,
+  "wilson_95": [
+    0.43136085960389187,
+    0.5686391403961082
+  ],
+  "seed": 1000000,
+  "simulations": 100,
+  "seconds": 46.911239625071175,
+  "sha256_a": "404a4ebf432233c669d0c5f4a77021d72c1d0ee9043f75d31fa819e023a1d47e",
+  "sha256_b": "88814410deb59295d270a17cbf421091569d04c067ab4a643147f333345f8e41",
+  "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+  "cyan_wins": 39,
+  "magenta_wins": 61,
+  "selection": {
+    "trial": 0,
+    "screen": 8,
+    "path": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/tuning_local/trial_000.onnx",
+    "params": {
+      "material": [
+        0.16500000655651093,
+        0.4950000047683716,
+        0.2750000059604645,
+        0.33000001311302185,
+        0.550000011920929,
+        1.100000023841858
+      ],
+      "capture": [
+        3.978803873062134,
+        3.978803873062134,
+        3.978803873062134,
+        3.978803873062134,
+        3.978803873062134,
+        3.978803873062134
+      ],
+      "extra": [
+        0.04399999976158142,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "confirm": 22
+  },
+  "promotion_passed": false
+}

@@ -1,0 +1,60 @@
+2026-10-23 16:52:41.012 Python[3240:19294798] 2026-10-23 16:52:41.012040 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+Game 1/40: A wins as CYAN, 30 actions
+Game 2/40: A wins as MAGENTA, 24 actions
+Game 3/40: A loses as CYAN, 54 actions
+Game 4/40: A wins as MAGENTA, 12 actions
+Game 5/40: A wins as CYAN, 22 actions
+Game 6/40: A wins as MAGENTA, 40 actions
+Game 7/40: A wins as CYAN, 30 actions
+Game 8/40: A loses as MAGENTA, 30 actions
+Game 9/40: A wins as CYAN, 30 actions
+Game 10/40: A wins as MAGENTA, 32 actions
+Game 11/40: A loses as CYAN, 36 actions
+Game 12/40: A wins as MAGENTA, 34 actions
+Game 13/40: A wins as CYAN, 34 actions
+Game 14/40: A loses as MAGENTA, 26 actions
+Game 15/40: A loses as CYAN, 66 actions
+Game 16/40: A wins as MAGENTA, 28 actions
+Game 17/40: A wins as CYAN, 38 actions
+Game 18/40: A loses as MAGENTA, 26 actions
+Game 19/40: A wins as CYAN, 38 actions
+Game 20/40: A loses as MAGENTA, 6 actions
+Game 21/40: A wins as CYAN, 34 actions
+Game 22/40: A loses as MAGENTA, 33 actions
+Game 23/40: A loses as CYAN, 40 actions
+Game 24/40: A wins as MAGENTA, 40 actions
+Game 25/40: A loses as CYAN, 24 actions
+Game 26/40: A loses as MAGENTA, 26 actions
+Game 27/40: A wins as CYAN, 26 actions
+Game 28/40: A wins as MAGENTA, 36 actions
+Game 29/40: A wins as CYAN, 25 actions
+Game 30/40: A wins as MAGENTA, 24 actions
+Game 31/40: A wins as CYAN, 30 actions
+Game 32/40: A loses as MAGENTA, 22 actions
+Game 33/40: A loses as CYAN, 63 actions
+Game 34/40: A loses as MAGENTA, 26 actions
+Game 35/40: A wins as CYAN, 14 actions
+Game 36/40: A wins as MAGENTA, 28 actions
+Game 37/40: A loses as CYAN, 31 actions
+Game 38/40: A loses as MAGENTA, 26 actions
+Game 39/40: A wins as CYAN, 18 actions
+Game 40/40: A wins as MAGENTA, 27 actions
+{
+  "model_a": "candidates/selfplay_129_of_200.onnx",
+  "model_b": "baselines/claude_best.onnx",
+  "games": 40,
+  "wins": 24,
+  "win_rate": 0.6,
+  "wilson_95": [
+    0.44595893660346186,
+    0.7365167431570808
+  ],
+  "seed": 850000,
+  "simulations": 100,
+  "seconds": 13.751133332960308,
+  "sha256_a": "2bb111729d61a8474e317661af98a72ceb3827fa76602dc9e0083413fafe9415",
+  "sha256_b": "88814410deb59295d270a17cbf421091569d04c067ab4a643147f333345f8e41",
+  "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+  "cyan_wins": 13,
+  "magenta_wins": 11
+}

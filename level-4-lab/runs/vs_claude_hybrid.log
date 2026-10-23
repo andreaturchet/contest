@@ -1,0 +1,120 @@
+2026-10-23 16:56:57.544 Python[4412:19302852] 2026-10-23 16:56:57.544761 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+Game 1/100: A wins as CYAN, 22 actions
+Game 2/100: A wins as MAGENTA, 38 actions
+Game 3/100: A wins as CYAN, 46 actions
+Game 4/100: A loses as MAGENTA, 38 actions
+Game 5/100: A wins as CYAN, 30 actions
+Game 6/100: A wins as MAGENTA, 28 actions
+Game 7/100: A loses as CYAN, 42 actions
+Game 8/100: A wins as MAGENTA, 48 actions
+Game 9/100: A wins as CYAN, 38 actions
+Game 10/100: A wins as MAGENTA, 28 actions
+Game 11/100: A wins as CYAN, 34 actions
+Game 12/100: A loses as MAGENTA, 21 actions
+Game 13/100: A loses as CYAN, 32 actions
+Game 14/100: A loses as MAGENTA, 38 actions
+Game 15/100: A wins as CYAN, 30 actions
+Game 16/100: A wins as MAGENTA, 36 actions
+Game 17/100: A loses as CYAN, 32 actions
+Game 18/100: A wins as MAGENTA, 28 actions
+Game 19/100: A loses as CYAN, 32 actions
+Game 20/100: A wins as MAGENTA, 32 actions
+Game 21/100: A wins as CYAN, 42 actions
+Game 22/100: A wins as MAGENTA, 24 actions
+Game 23/100: A loses as CYAN, 38 actions
+Game 24/100: A wins as MAGENTA, 23 actions
+Game 25/100: A wins as CYAN, 46 actions
+Game 26/100: A wins as MAGENTA, 38 actions
+Game 27/100: A wins as CYAN, 30 actions
+Game 28/100: A wins as MAGENTA, 36 actions
+Game 29/100: A wins as CYAN, 18 actions
+Game 30/100: A wins as MAGENTA, 28 actions
+Game 31/100: A wins as CYAN, 42 actions
+Game 32/100: A wins as MAGENTA, 28 actions
+Game 33/100: A wins as CYAN, 46 actions
+Game 34/100: A loses as MAGENTA, 30 actions
+Game 35/100: A wins as CYAN, 38 actions
+Game 36/100: A wins as MAGENTA, 28 actions
+Game 37/100: A wins as CYAN, 46 actions
+Game 38/100: A loses as MAGENTA, 33 actions
+Game 39/100: A loses as CYAN, 32 actions
+Game 40/100: A wins as MAGENTA, 36 actions
+Game 41/100: A loses as CYAN, 70 actions
+Game 42/100: A wins as MAGENTA, 36 actions
+Game 43/100: A wins as CYAN, 22 actions
+Game 44/100: A wins as MAGENTA, 40 actions
+Game 45/100: A wins as CYAN, 38 actions
+Game 46/100: A wins as MAGENTA, 44 actions
+Game 47/100: A wins as CYAN, 26 actions
+Game 48/100: A loses as MAGENTA, 30 actions
+Game 49/100: A loses as CYAN, 24 actions
+Game 50/100: A wins as MAGENTA, 38 actions
+Game 51/100: A wins as CYAN, 38 actions
+Game 52/100: A wins as MAGENTA, 28 actions
+Game 53/100: A loses as CYAN, 36 actions
+Game 54/100: A loses as MAGENTA, 38 actions
+Game 55/100: A wins as CYAN, 30 actions
+Game 56/100: A loses as MAGENTA, 26 actions
+Game 57/100: A wins as CYAN, 42 actions
+Game 58/100: A wins as MAGENTA, 24 actions
+Game 59/100: A wins as CYAN, 26 actions
+Game 60/100: A wins as MAGENTA, 32 actions
+Game 61/100: A wins as CYAN, 30 actions
+Game 62/100: A loses as MAGENTA, 42 actions
+Game 63/100: A loses as CYAN, 35 actions
+Game 64/100: A loses as MAGENTA, 42 actions
+Game 65/100: A wins as CYAN, 26 actions
+Game 66/100: A loses as MAGENTA, 38 actions
+Game 67/100: A wins as CYAN, 30 actions
+Game 68/100: A wins as MAGENTA, 36 actions
+Game 69/100: A wins as CYAN, 46 actions
+Game 70/100: A loses as MAGENTA, 10 actions
+Game 71/100: A loses as CYAN, 24 actions
+Game 72/100: A wins as MAGENTA, 16 actions
+Game 73/100: A wins as CYAN, 34 actions
+Game 74/100: A wins as MAGENTA, 8 actions
+Game 75/100: A wins as CYAN, 22 actions
+Game 76/100: A wins as MAGENTA, 28 actions
+Game 77/100: A wins as CYAN, 22 actions
+Game 78/100: A wins as MAGENTA, 36 actions
+Game 79/100: A loses as CYAN, 34 actions
+Game 80/100: A wins as MAGENTA, 60 actions
+Game 81/100: A loses as CYAN, 24 actions
+Game 82/100: A loses as MAGENTA, 30 actions
+Game 83/100: A wins as CYAN, 38 actions
+Game 84/100: A wins as MAGENTA, 27 actions
+Game 85/100: A wins as CYAN, 14 actions
+Game 86/100: A wins as MAGENTA, 24 actions
+Game 87/100: A loses as CYAN, 28 actions
+Game 88/100: A wins as MAGENTA, 32 actions
+Game 89/100: A wins as CYAN, 33 actions
+Game 90/100: A wins as MAGENTA, 36 actions
+Game 91/100: A wins as CYAN, 33 actions
+Game 92/100: A wins as MAGENTA, 32 actions
+Game 93/100: A wins as CYAN, 38 actions
+Game 94/100: A wins as MAGENTA, 32 actions
+Game 95/100: A wins as CYAN, 37 actions
+Game 96/100: A wins as MAGENTA, 56 actions
+Game 97/100: A wins as CYAN, 38 actions
+Game 98/100: A wins as MAGENTA, 28 actions
+Game 99/100: A loses as CYAN, 36 actions
+Game 100/100: A wins as MAGENTA, 28 actions
+{
+  "model_a": "candidate.onnx",
+  "model_b": "baselines/claude_hyb_B.onnx",
+  "games": 100,
+  "wins": 72,
+  "win_rate": 0.72,
+  "wilson_95": [
+    0.6251197129007884,
+    0.7986031478881379
+  ],
+  "seed": 6000000,
+  "simulations": 100,
+  "seconds": 79.47758591698948,
+  "sha256_a": "5a370f5cea2a41834eadd22e8b312b4104c73c7041afeb394d5780b6886d9a6f",
+  "sha256_b": "5aa42b84e1fdb1b1a9c2c73fdb225b37a0950d79aac6108d8a462bc0d0bdcac6",
+  "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+  "cyan_wins": 35,
+  "magenta_wins": 37
+}

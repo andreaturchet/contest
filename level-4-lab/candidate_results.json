@@ -1,0 +1,66 @@
+{
+  "file": "candidate.onnx",
+  "bytes": 256404,
+  "sha256": "5a370f5cea2a41834eadd22e8b312b4104c73c7041afeb394d5780b6886d9a6f",
+  "against_original": {
+    "model_a": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/tournament_adapted/best.onnx",
+    "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/baselines/current.onnx",
+    "games": 200,
+    "wins": 140,
+    "win_rate": 0.7,
+    "wilson_95": [
+      0.6332093162728074,
+      0.7592525531762859
+    ],
+    "seed": 4000000,
+    "simulations": 100,
+    "seconds": 67.29793995805085,
+    "sha256_a": "5a370f5cea2a41834eadd22e8b312b4104c73c7041afeb394d5780b6886d9a6f",
+    "sha256_b": "88814410deb59295d270a17cbf421091569d04c067ab4a643147f333345f8e41",
+    "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+    "cyan_wins": 69,
+    "magenta_wins": 71,
+    "promotion_passed": true
+  },
+  "against_earlier_student": {
+    "model_a": "candidate.onnx",
+    "model_b": "candidates/selfplay_129_of_200.onnx",
+    "games": 100,
+    "wins": 46,
+    "win_rate": 0.46,
+    "wilson_95": [
+      0.36560808309024106,
+      0.5573513967663177
+    ],
+    "seed": 5000000,
+    "simulations": 100,
+    "seconds": 53.81356162496377,
+    "sha256_a": "5a370f5cea2a41834eadd22e8b312b4104c73c7041afeb394d5780b6886d9a6f",
+    "sha256_b": "2bb111729d61a8474e317661af98a72ceb3827fa76602dc9e0083413fafe9415",
+    "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+    "cyan_wins": 23,
+    "magenta_wins": 23
+  },
+  "against_other_hybrid": {
+    "model_a": "candidate.onnx",
+    "model_b": "baselines/claude_hyb_B.onnx",
+    "games": 100,
+    "wins": 72,
+    "win_rate": 0.72,
+    "wilson_95": [
+      0.6251197129007884,
+      0.7986031478881379
+    ],
+    "seed": 6000000,
+    "simulations": 100,
+    "seconds": 79.47758591698948,
+    "sha256_a": "5a370f5cea2a41834eadd22e8b312b4104c73c7041afeb394d5780b6886d9a6f",
+    "sha256_b": "5aa42b84e1fdb1b1a9c2c73fdb225b37a0950d79aac6108d8a462bc0d0bdcac6",
+    "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+    "cyan_wins": 35,
+    "magenta_wins": 37
+  },
+  "validation_log": "runs/candidate_validation.txt",
+  "loss_analysis": "LOSS_ANALYSIS.md",
+  "colab_status": "Notebook prepared; CUDA execution must be launched and checked in Colab"
+}

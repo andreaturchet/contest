@@ -1,0 +1,259 @@
+{
+  "stats": {
+    "verified_games": 28,
+    "losses": 11,
+    "CYAN_losses": 7,
+    "Kernel captured": 8,
+    "wins": 17,
+    "MAGENTA_wins": 10,
+    "Kernel destroyed by firewall": 2,
+    "MAGENTA_losses": 4,
+    "CYAN_wins": 7,
+    "bare-Kernel endgame": 1
+  },
+  "missing_protocols": [
+    6554,
+    6510
+  ],
+  "positions": 904,
+  "training_samples": 754,
+  "validation_samples": 166,
+  "avoidable_last_actions": 4,
+  "losses": [
+    {
+      "id": 10005,
+      "you": "CYAN",
+      "winner": "MAGENTA",
+      "won": false,
+      "actions": 48,
+      "firewall_losses": [
+        {
+          "action": 32,
+          "pieces": [
+            [
+              [
+                7,
+                2
+              ],
+              [
+                "CYAN",
+                "DAEMON"
+              ]
+            ]
+          ]
+        }
+      ],
+      "reason": "Kernel captured",
+      "avoidable_threats": [
+        {
+          "match_id": 10005,
+          "action": 46,
+          "played": 2796,
+          "played_label": "D3 -> E3",
+          "safe_actions": [
+            2804
+          ],
+          "safe_labels": [
+            "D3 -> E2"
+          ],
+          "threat": [
+            "F5 -> G5",
+            "G5 -> E3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9752,
+      "you": "CYAN",
+      "winner": "MAGENTA",
+      "won": false,
+      "actions": 20,
+      "firewall_losses": [],
+      "reason": "Kernel captured",
+      "avoidable_threats": [
+        {
+          "match_id": 9752,
+          "action": 18,
+          "played": 2334,
+          "played_label": "E4 -> G5",
+          "safe_actions": [
+            2673,
+            3641,
+            3633
+          ],
+          "safe_labels": [
+            "B3 -> B2",
+            "A1 -> B1",
+            "A1 -> B2"
+          ],
+          "threat": [
+            "B4 -> C2",
+            "C2 -> A1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9453,
+      "you": "CYAN",
+      "winner": "MAGENTA",
+      "won": false,
+      "actions": 32,
+      "firewall_losses": [
+        {
+          "action": 32,
+          "pieces": [
+            [
+              [
+                7,
+                0
+              ],
+              [
+                "CYAN",
+                "KERNEL"
+              ]
+            ]
+          ]
+        }
+      ],
+      "reason": "Kernel destroyed by firewall",
+      "avoidable_threats": []
+    },
+    {
+      "id": 9196,
+      "you": "CYAN",
+      "winner": "MAGENTA",
+      "won": false,
+      "actions": 28,
+      "firewall_losses": [],
+      "reason": "Kernel captured",
+      "avoidable_threats": []
+    },
+    {
+      "id": 8997,
+      "you": "CYAN",
+      "winner": "MAGENTA",
+      "won": false,
+      "actions": 32,
+      "firewall_losses": [
+        {
+          "action": 32,
+          "pieces": [
+            [
+              [
+                7,
+                0
+              ],
+              [
+                "CYAN",
+                "KERNEL"
+              ]
+            ]
+          ]
+        }
+      ],
+      "reason": "Kernel destroyed by firewall",
+      "avoidable_threats": []
+    },
+    {
+      "id": 8943,
+      "you": "MAGENTA",
+      "winner": "CYAN",
+      "won": false,
+      "actions": 25,
+      "firewall_losses": [],
+      "reason": "Kernel captured",
+      "avoidable_threats": []
+    },
+    {
+      "id": 8559,
+      "you": "MAGENTA",
+      "winner": "CYAN",
+      "won": false,
+      "actions": 26,
+      "firewall_losses": [],
+      "reason": "Kernel captured",
+      "avoidable_threats": [
+        {
+          "match_id": 8559,
+          "action": 24,
+          "played": 2202,
+          "played_label": "F5 -> F4",
+          "safe_actions": [
+            2201
+          ],
+          "safe_labels": [
+            "F5 -> G4"
+          ],
+          "threat": [
+            "C6 -> C4",
+            "C4 -> F4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7986,
+      "you": "MAGENTA",
+      "winner": "CYAN",
+      "won": false,
+      "actions": 26,
+      "firewall_losses": [],
+      "reason": "Kernel captured",
+      "avoidable_threats": []
+    },
+    {
+      "id": 7941,
+      "you": "CYAN",
+      "winner": "MAGENTA",
+      "won": false,
+      "actions": 44,
+      "firewall_losses": [],
+      "reason": "Kernel captured",
+      "avoidable_threats": [
+        {
+          "match_id": 7941,
+          "action": 42,
+          "played": 2276,
+          "played_label": "D4 -> E4",
+          "safe_actions": [
+            2266,
+            2284
+          ],
+          "safe_labels": [
+            "D4 -> C5",
+            "D4 -> E3"
+          ],
+          "threat": [
+            "F6 -> G6",
+            "G6 -> E4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7055,
+      "you": "CYAN",
+      "winner": "MAGENTA",
+      "won": false,
+      "actions": 28,
+      "firewall_losses": [],
+      "reason": "bare-Kernel endgame",
+      "avoidable_threats": []
+    },
+    {
+      "id": 6282,
+      "you": "MAGENTA",
+      "winner": "CYAN",
+      "won": false,
+      "actions": 26,
+      "firewall_losses": [],
+      "reason": "Kernel captured",
+      "avoidable_threats": []
+    }
+  ],
+  "input_sha256": "0728833eb60bcdff8307f27a77f8e3025bfd535af5968f552ea1661a0fcbb6d1",
+  "teacher_sha256": "88814410deb59295d270a17cbf421091569d04c067ab4a643147f333345f8e41",
+  "teacher_simulations": 600
+}

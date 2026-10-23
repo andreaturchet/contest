@@ -1,0 +1,321 @@
+[16:37:49] ============================================================
+[16:37:49] START v2 iters=80 games=160 sims full/fast=96/16 frac=0.25 buffer=12it epochs=1 workers=6 net=48x4
+[16:37:49] resumed net from checkpoint
+[16:37:49] --- iter 1 : self-play 160 games ---
+[16:37:52]   self-play done in 3s; games=160 new=1194 buffer=1194 samples
+[16:37:53]     train: policy_ce=3.390 value_mse=0.946 (samples=1194, epochs=1)
+[16:37:55]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:38:11]   candidate win-rate vs best = 23%
+[16:38:11]   kept previous best
+[16:38:11]   iter 1 total 21s
+[16:38:11] --- iter 2 : self-play 160 games ---
+[16:38:13]   self-play done in 2s; games=160 new=1087 buffer=2281 samples
+[16:38:15]     train: policy_ce=3.317 value_mse=0.685 (samples=2281, epochs=1)
+[16:38:16]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:38:33]   candidate win-rate vs best = 37%
+[16:38:33]   kept previous best
+[16:38:33]   iter 2 total 22s
+[16:38:33] --- iter 3 : self-play 160 games ---
+[16:38:36]   self-play done in 3s; games=160 new=1246 buffer=3527 samples
+[16:38:39]     train: policy_ce=3.252 value_mse=0.657 (samples=3527, epochs=1)
+[16:38:39]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:38:57]   candidate win-rate vs best = 33%
+[16:38:57]   kept previous best
+[16:38:57]   iter 3 total 24s
+[16:38:57] --- iter 4 : self-play 160 games ---
+[16:39:00]   self-play done in 3s; games=160 new=1150 buffer=4677 samples
+[16:39:03]     train: policy_ce=3.216 value_mse=0.600 (samples=4677, epochs=1)
+[16:39:04]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:39:22]   candidate win-rate vs best = 57%
+[16:39:40]   confirmation win-rate = 40%  (combined 48%)
+[16:39:40]   confirmation failed; kept previous best
+[16:39:40]   iter 4 total 42s
+[16:39:40] --- iter 5 : self-play 160 games ---
+[16:39:42]   self-play done in 3s; games=160 new=1238 buffer=5915 samples
+[16:39:46]     train: policy_ce=3.178 value_mse=0.501 (samples=5915, epochs=1)
+[16:39:47]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:40:04]   candidate win-rate vs best = 33%
+[16:40:04]   kept previous best
+[16:40:04]   iter 5 total 25s
+[16:40:04] --- iter 6 : self-play 160 games ---
+[16:40:07]   self-play done in 2s; games=160 new=1186 buffer=7101 samples
+[16:40:11]     train: policy_ce=3.139 value_mse=0.470 (samples=7101, epochs=1)
+[16:40:12]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:40:32]   candidate win-rate vs best = 33%
+[16:40:32]   kept previous best
+[16:40:32]   iter 6 total 27s
+[16:40:32] --- iter 7 : self-play 160 games ---
+[16:40:34]   self-play done in 3s; games=160 new=1267 buffer=8368 samples
+[16:40:39]     train: policy_ce=3.116 value_mse=0.457 (samples=8368, epochs=1)
+[16:40:40]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:40:58]   candidate win-rate vs best = 37%
+[16:40:58]   kept previous best
+[16:40:58]   iter 7 total 26s
+[16:40:58] --- iter 8 : self-play 160 games ---
+[16:41:00]   self-play done in 2s; games=160 new=1197 buffer=9565 samples
+[16:41:06]     train: policy_ce=3.090 value_mse=0.416 (samples=9565, epochs=1)
+[16:41:07]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:41:26]   candidate win-rate vs best = 33%
+[16:41:26]   kept previous best
+[16:41:26]   iter 8 total 28s
+[16:41:26] --- iter 9 : self-play 160 games ---
+[16:41:28]   self-play done in 3s; games=160 new=1171 buffer=10736 samples
+[16:41:36]     train: policy_ce=3.069 value_mse=0.421 (samples=10736, epochs=1)
+[16:41:37]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:41:56]   candidate win-rate vs best = 37%
+[16:41:56]   kept previous best
+[16:41:56]   iter 9 total 31s
+[16:41:56] --- iter 10 : self-play 160 games ---
+[16:41:59]   self-play done in 3s; games=160 new=1195 buffer=11931 samples
+[16:42:07]     train: policy_ce=3.053 value_mse=0.387 (samples=11931, epochs=1)
+[16:42:08]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:42:27]   candidate win-rate vs best = 33%
+[16:42:27]   kept previous best
+[16:42:27]   iter 10 total 31s
+[16:42:27] --- iter 11 : self-play 160 games ---
+[16:42:30]   self-play done in 3s; games=160 new=1260 buffer=13191 samples
+[16:42:39]     train: policy_ce=3.042 value_mse=0.368 (samples=13191, epochs=1)
+[16:42:40]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:43:02]   candidate win-rate vs best = 30%
+[16:43:02]   kept previous best
+[16:43:02]   iter 11 total 35s
+[16:43:02] --- iter 12 : self-play 160 games ---
+[16:43:05]   self-play done in 3s; games=160 new=1210 buffer=14401 samples
+[16:43:14]     train: policy_ce=3.025 value_mse=0.359 (samples=14401, epochs=1)
+[16:43:15]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:43:35]   candidate win-rate vs best = 37%
+[16:43:35]   kept previous best
+[16:43:35]   iter 12 total 33s
+[16:43:35] --- iter 13 : self-play 160 games ---
+[16:43:38]   self-play done in 3s; games=160 new=1139 buffer=14346 samples
+[16:43:48]     train: policy_ce=3.023 value_mse=0.353 (samples=14346, epochs=1)
+[16:43:49]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:44:07]   candidate win-rate vs best = 20%
+[16:44:07]   kept previous best
+[16:44:07]   iter 13 total 32s
+[16:44:07] --- iter 14 : self-play 160 games ---
+[16:44:10]   self-play done in 3s; games=160 new=1263 buffer=14522 samples
+[16:44:20]     train: policy_ce=3.017 value_mse=0.350 (samples=14522, epochs=1)
+[16:44:21]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:44:40]   candidate win-rate vs best = 33%
+[16:44:40]   kept previous best
+[16:44:40]   iter 14 total 33s
+[16:44:40] --- iter 15 : self-play 160 games ---
+[16:44:43]   self-play done in 3s; games=160 new=1228 buffer=14504 samples
+[16:44:52]     train: policy_ce=3.018 value_mse=0.357 (samples=14504, epochs=1)
+[16:44:53]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:45:11]   candidate win-rate vs best = 33%
+[16:45:11]   kept previous best
+[16:45:11]   iter 15 total 31s
+[16:45:11] --- iter 16 : self-play 160 games ---
+[16:45:14]   self-play done in 3s; games=160 new=1171 buffer=14525 samples
+[16:45:23]     train: policy_ce=3.010 value_mse=0.352 (samples=14525, epochs=1)
+[16:45:24]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:45:42]   candidate win-rate vs best = 37%
+[16:45:42]   kept previous best
+[16:45:42]   iter 16 total 31s
+[16:45:42] --- iter 17 : self-play 160 games ---
+[16:45:45]   self-play done in 3s; games=160 new=1204 buffer=14491 samples
+[16:45:55]     train: policy_ce=3.001 value_mse=0.363 (samples=14491, epochs=1)
+[16:45:56]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:46:14]   candidate win-rate vs best = 53%
+[16:46:14]   kept previous best
+[16:46:14]   iter 17 total 32s
+[16:46:14] --- iter 18 : self-play 160 games ---
+[16:46:17]   self-play done in 3s; games=160 new=1181 buffer=14486 samples
+[16:46:26]     train: policy_ce=2.997 value_mse=0.370 (samples=14486, epochs=1)
+[16:46:27]   candidate REJECTED by validator (size=2829821B):
+[16:46:27]     ====================================================================
+[16:46:27] --- iter 19 : self-play 160 games ---
+[16:46:29]   self-play done in 3s; games=160 new=1189 buffer=14408 samples
+[16:46:39]     train: policy_ce=2.993 value_mse=0.362 (samples=14408, epochs=1)
+[16:46:40]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:46:59]   candidate win-rate vs best = 43%
+[16:46:59]   kept previous best
+[16:46:59]   iter 19 total 33s
+[16:46:59] --- iter 20 : self-play 160 games ---
+[16:47:02]   self-play done in 3s; games=160 new=1274 buffer=14485 samples
+[16:47:13]     train: policy_ce=2.989 value_mse=0.359 (samples=14485, epochs=1)
+[16:47:13]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:47:31]   candidate win-rate vs best = 30%
+[16:47:31]   kept previous best
+[16:47:31]   iter 20 total 32s
+[16:47:31] --- iter 21 : self-play 160 games ---
+[16:47:34]   self-play done in 3s; games=160 new=1158 buffer=14472 samples
+[16:47:43]     train: policy_ce=2.985 value_mse=0.350 (samples=14472, epochs=1)
+[16:47:44]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:48:03]   candidate win-rate vs best = 47%
+[16:48:03]   kept previous best
+[16:48:03]   iter 21 total 32s
+[16:48:03] --- iter 22 : self-play 160 games ---
+[16:48:06]   self-play done in 3s; games=160 new=1205 buffer=14482 samples
+[16:48:15]     train: policy_ce=2.984 value_mse=0.355 (samples=14482, epochs=1)
+[16:48:16]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:48:32]   candidate win-rate vs best = 40%
+[16:48:32]   kept previous best
+[16:48:32]   iter 22 total 29s
+[16:48:32] --- iter 23 : self-play 160 games ---
+[16:48:35]   self-play done in 3s; games=160 new=1276 buffer=14498 samples
+[16:48:45]     train: policy_ce=2.983 value_mse=0.353 (samples=14498, epochs=1)
+[16:48:46]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:49:04]   candidate win-rate vs best = 17%
+[16:49:04]   kept previous best
+[16:49:04]   iter 23 total 32s
+[16:49:04] --- iter 24 : self-play 160 games ---
+[16:49:07]   self-play done in 3s; games=160 new=1230 buffer=14518 samples
+[16:49:17]     train: policy_ce=2.984 value_mse=0.337 (samples=14518, epochs=1)
+[16:49:18]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:49:36]   candidate win-rate vs best = 33%
+[16:49:36]   kept previous best
+[16:49:36]   iter 24 total 32s
+[16:49:36] --- iter 25 : self-play 160 games ---
+[16:49:40]   self-play done in 3s; games=160 new=1224 buffer=14603 samples
+[16:49:50]     train: policy_ce=2.977 value_mse=0.334 (samples=14603, epochs=1)
+[16:49:51]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:50:10]   candidate win-rate vs best = 37%
+[16:50:10]   kept previous best
+[16:50:10]   iter 25 total 33s
+[16:50:10] --- iter 26 : self-play 160 games ---
+[16:50:13]   self-play done in 3s; games=160 new=1216 buffer=14556 samples
+[16:50:24]     train: policy_ce=2.978 value_mse=0.339 (samples=14556, epochs=1)
+[16:50:25]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:50:43]   candidate win-rate vs best = 37%
+[16:50:43]   kept previous best
+[16:50:43]   iter 26 total 33s
+[16:50:43] --- iter 27 : self-play 160 games ---
+[16:50:46]   self-play done in 3s; games=160 new=1198 buffer=14526 samples
+[16:50:56]     train: policy_ce=2.973 value_mse=0.342 (samples=14526, epochs=1)
+[16:50:57]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:51:14]   candidate win-rate vs best = 30%
+[16:51:14]   kept previous best
+[16:51:14]   iter 27 total 31s
+[16:51:14] --- iter 28 : self-play 160 games ---
+[16:51:17]   self-play done in 3s; games=160 new=1248 buffer=14603 samples
+[16:51:26]     train: policy_ce=2.972 value_mse=0.340 (samples=14603, epochs=1)
+[16:51:28]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:51:44] ============================================================
+[16:51:44] START v2 iters=200 games=160 sims full/fast=256/24 frac=0.2 buffer=15it epochs=1 workers=5 net=48x4
+[16:51:44] resumed net from checkpoint
+[16:51:44] --- iter 1 : self-play 160 games ---
+[16:51:50]   self-play done in 6s; games=160 new=936 buffer=936 samples
+[16:51:51]     train: policy_ce=2.991 value_mse=0.945 (samples=936, epochs=1)
+[16:51:52]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:52:09]   candidate win-rate vs best = 37%
+[16:52:09]   kept previous best
+[16:52:09]   iter 1 total 26s
+[16:52:09] --- iter 2 : self-play 160 games ---
+[16:52:15]   self-play done in 6s; games=160 new=935 buffer=1871 samples
+[16:52:17]     train: policy_ce=2.959 value_mse=0.916 (samples=1871, epochs=1)
+[16:52:18]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:52:37]   candidate win-rate vs best = 27%
+[16:52:37]   kept previous best
+[16:52:37]   iter 2 total 27s
+[16:52:37] --- iter 3 : self-play 160 games ---
+[16:52:44]   self-play done in 7s; games=160 new=993 buffer=2864 samples
+[16:52:45]     train: policy_ce=2.920 value_mse=0.750 (samples=2864, epochs=1)
+[16:52:46]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:53:07]   candidate win-rate vs best = 37%
+[16:53:07]   kept previous best
+[16:53:07]   iter 3 total 30s
+[16:53:07] --- iter 4 : self-play 160 games ---
+[16:53:13]   self-play done in 6s; games=160 new=948 buffer=3812 samples
+[16:53:15]     train: policy_ce=2.902 value_mse=0.669 (samples=3812, epochs=1)
+[16:53:16]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:53:35]   candidate win-rate vs best = 47%
+[16:53:35]   kept previous best
+[16:53:35]   iter 4 total 28s
+[16:53:35] --- iter 5 : self-play 160 games ---
+[16:53:41]   self-play done in 6s; games=160 new=942 buffer=4754 samples
+[16:53:44]     train: policy_ce=2.889 value_mse=0.603 (samples=4754, epochs=1)
+[16:53:45]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:54:04]   candidate win-rate vs best = 50%
+[16:54:04]   kept previous best
+[16:54:04]   iter 5 total 28s
+[16:54:04] --- iter 6 : self-play 160 games ---
+[16:54:10]   self-play done in 6s; games=160 new=992 buffer=5746 samples
+[16:54:13]     train: policy_ce=2.871 value_mse=0.562 (samples=5746, epochs=1)
+[16:54:14]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:54:34]   candidate win-rate vs best = 43%
+[16:54:34]   kept previous best
+[16:54:34]   iter 6 total 30s
+[16:54:34] --- iter 7 : self-play 160 games ---
+[16:54:40]   self-play done in 6s; games=160 new=913 buffer=6659 samples
+[16:54:44]     train: policy_ce=2.860 value_mse=0.492 (samples=6659, epochs=1)
+[16:54:45]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:55:03]   candidate win-rate vs best = 47%
+[16:55:03]   kept previous best
+[16:55:03]   iter 7 total 29s
+[16:55:03] --- iter 8 : self-play 160 games ---
+[16:55:08]   self-play done in 5s; games=160 new=934 buffer=7593 samples
+[16:55:13]     train: policy_ce=2.842 value_mse=0.466 (samples=7593, epochs=1)
+[16:55:14]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:55:33]   candidate win-rate vs best = 50%
+[16:55:33]   kept previous best
+[16:55:33]   iter 8 total 30s
+[16:55:33] --- iter 9 : self-play 160 games ---
+[16:55:39]   self-play done in 6s; games=160 new=916 buffer=8509 samples
+[16:55:45]     train: policy_ce=2.816 value_mse=0.448 (samples=8509, epochs=1)
+[16:55:46]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:56:05]   candidate win-rate vs best = 30%
+[16:56:05]   kept previous best
+[16:56:05]   iter 9 total 32s
+[16:56:05] --- iter 10 : self-play 160 games ---
+[16:56:11]   self-play done in 7s; games=160 new=961 buffer=9470 samples
+[16:56:18]     train: policy_ce=2.809 value_mse=0.411 (samples=9470, epochs=1)
+[16:56:19]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:56:39]   candidate win-rate vs best = 33%
+[16:56:39]   kept previous best
+[16:56:39]   iter 10 total 34s
+[16:56:39] --- iter 11 : self-play 160 games ---
+[16:56:45]   self-play done in 7s; games=160 new=999 buffer=10469 samples
+[16:56:52]     train: policy_ce=2.798 value_mse=0.417 (samples=10469, epochs=1)
+[16:56:53]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:57:12]   candidate win-rate vs best = 27%
+[16:57:12]   kept previous best
+[16:57:12]   iter 11 total 33s
+[16:57:12] --- iter 12 : self-play 160 games ---
+[16:57:18]   self-play done in 6s; games=160 new=936 buffer=11405 samples
+[16:57:26]     train: policy_ce=2.785 value_mse=0.403 (samples=11405, epochs=1)
+[16:57:27]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:57:45]   candidate win-rate vs best = 40%
+[16:57:45]   kept previous best
+[16:57:45]   iter 12 total 33s
+[16:57:45] --- iter 13 : self-play 160 games ---
+[16:57:51]   self-play done in 6s; games=160 new=984 buffer=12389 samples
+[16:57:59]     train: policy_ce=2.776 value_mse=0.398 (samples=12389, epochs=1)
+[16:57:59]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:58:18]   candidate win-rate vs best = 33%
+[16:58:18]   kept previous best
+[16:58:18]   iter 13 total 33s
+[16:58:18] --- iter 14 : self-play 160 games ---
+[16:58:23]   self-play done in 6s; games=160 new=985 buffer=13374 samples
+[16:58:32]     train: policy_ce=2.776 value_mse=0.377 (samples=13374, epochs=1)
+[16:58:33]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:58:50]   candidate win-rate vs best = 30%
+[16:58:50]   kept previous best
+[16:58:50]   iter 14 total 32s
+[16:58:50] --- iter 15 : self-play 160 games ---
+[16:58:55]   self-play done in 6s; games=160 new=966 buffer=14340 samples
+[16:59:04]     train: policy_ce=2.766 value_mse=0.368 (samples=14340, epochs=1)
+[16:59:05]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:59:23]   candidate win-rate vs best = 27%
+[16:59:23]   kept previous best
+[16:59:23]   iter 15 total 33s
+[16:59:23] --- iter 16 : self-play 160 games ---
+[16:59:29]   self-play done in 6s; games=160 new=992 buffer=14396 samples
+[16:59:38]     train: policy_ce=2.764 value_mse=0.387 (samples=14396, epochs=1)
+[16:59:39]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[16:59:59]   candidate win-rate vs best = 27%
+[16:59:59]   kept previous best
+[16:59:59]   iter 16 total 36s
+[16:59:59] --- iter 17 : self-play 160 games ---
+[17:00:05]   self-play done in 6s; games=160 new=958 buffer=14419 samples
+[17:00:15]     train: policy_ce=2.763 value_mse=0.369 (samples=14419, epochs=1)
+[17:00:16]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30
+[17:00:36]   candidate win-rate vs best = 53%
+[17:00:36]   kept previous best
+[17:00:36]   iter 17 total 37s
+[17:00:36] --- iter 18 : self-play 160 games ---
+[17:00:42]   self-play done in 7s; games=160 new=957 buffer=14383 samples
+[17:00:52]     train: policy_ce=2.762 value_mse=0.366 (samples=14383, epochs=1)
+[17:00:53]   candidate ACCEPTED (2763 KiB); A/B vs best @ 100 sims x30

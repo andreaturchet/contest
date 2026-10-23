@@ -1,0 +1,20 @@
+{
+  "model_a": "runs/local_neural/best.onnx",
+  "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/baselines/current.onnx",
+  "games": 200,
+  "wins": 129,
+  "win_rate": 0.645,
+  "wilson_95": [
+    0.5765211307549043,
+    0.7080137245956883
+  ],
+  "seed": 3000000,
+  "simulations": 100,
+  "seconds": 70.33292716706637,
+  "sha256_a": "2bb111729d61a8474e317661af98a72ceb3827fa76602dc9e0083413fafe9415",
+  "sha256_b": "88814410deb59295d270a17cbf421091569d04c067ab4a643147f333345f8e41",
+  "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+  "cyan_wins": 62,
+  "magenta_wins": 67,
+  "promotion_passed": true
+}

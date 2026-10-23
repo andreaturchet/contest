@@ -1,0 +1,54 @@
+2026-10-23 16:46:39.320 Python[770:19281526] 2026-10-23 16:46:39.320182 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+Verified match 10005: loss as CYAN, 48 actions
+Verified match 9910: win as MAGENTA, 44 actions
+Verified match 9759: win as MAGENTA, 48 actions
+Verified match 9752: loss as CYAN, 20 actions
+Verified match 9453: loss as CYAN, 32 actions
+Verified match 9389: win as MAGENTA, 44 actions
+Verified match 9196: loss as CYAN, 28 actions
+Verified match 9191: win as MAGENTA, 36 actions
+Verified match 8997: loss as CYAN, 32 actions
+Verified match 8943: loss as MAGENTA, 25 actions
+Verified match 8817: win as MAGENTA, 32 actions
+Verified match 8796: win as CYAN, 30 actions
+Verified match 8596: win as CYAN, 58 actions
+Verified match 8559: loss as MAGENTA, 26 actions
+Verified match 7986: loss as MAGENTA, 26 actions
+Verified match 7941: loss as CYAN, 44 actions
+Verified match 7631: win as CYAN, 30 actions
+Verified match 7576: win as MAGENTA, 40 actions
+Verified match 7500: win as MAGENTA, 16 actions
+Verified match 7451: win as CYAN, 18 actions
+Verified match 7169: win as MAGENTA, 40 actions
+Verified match 7055: loss as CYAN, 28 actions
+Verified match 6824: win as MAGENTA, 19 actions
+Verified match 6769: win as CYAN, 22 actions
+Verified match 6645: win as CYAN, 26 actions
+Verified match 6431: win as MAGENTA, 28 actions
+Verified match 6288: win as CYAN, 38 actions
+Verified match 6282: loss as MAGENTA, 26 actions
+{
+  "stats": {
+    "verified_games": 28,
+    "losses": 11,
+    "CYAN_losses": 7,
+    "Kernel captured": 8,
+    "wins": 17,
+    "MAGENTA_wins": 10,
+    "Kernel destroyed by firewall": 2,
+    "MAGENTA_losses": 4,
+    "CYAN_wins": 7,
+    "bare-Kernel endgame": 1
+  },
+  "missing_protocols": [
+    6554,
+    6510
+  ],
+  "positions": 904,
+  "training_samples": 754,
+  "validation_samples": 166,
+  "avoidable_last_actions": 4,
+  "input_sha256": "0728833eb60bcdff8307f27a77f8e3025bfd535af5968f552ea1661a0fcbb6d1",
+  "teacher_sha256": "88814410deb59295d270a17cbf421091569d04c067ab4a643147f333345f8e41",
+  "teacher_simulations": 600
+}

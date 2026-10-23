@@ -1,0 +1,28 @@
+Device=cpu; architecture={'channels': 16, 'blocks': 1}; parameters=15,884
+Baseline and original challenge files are frozen. Only this run directory changes.
+2026-10-23 16:31:53.267 Python[96495:19249149] 2026-10-23 16:31:53.267505 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+2026-10-23 16:31:54.322 Python[96481:19249113] 2026-10-23 16:31:54.322407 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+{"iteration": 1, "new_samples": 62, "replay": 62, "generation_seconds": 1.0203839159803465, "loss": [2.521971195936203, 1.8656870275735855], "elapsed_seconds": 1.1023198750335723, "incumbent_wins": 1, "baseline_wins": 1}
+Game 1/2: A loses as CYAN, 16 actions
+Game 2/2: A loses as MAGENTA, 26 actions
+{
+  "model_a": "runs/smoke/best.onnx",
+  "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/baselines/current.onnx",
+  "games": 2,
+  "wins": 0,
+  "win_rate": 0.0,
+  "wilson_95": [
+    0.0,
+    0.6576197724933469
+  ],
+  "seed": 2000000,
+  "simulations": 100,
+  "seconds": 0.37180829199496657,
+  "sha256_a": "8437280786d60b169e5782a18317fe3d68cf014de0998cdf72612fb2d6d4444f",
+  "sha256_b": "88814410deb59295d270a17cbf421091569d04c067ab4a643147f333345f8e41",
+  "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+  "cyan_wins": 0,
+  "magenta_wins": 0
+}
+Holdout did not establish improvement. Keep the baseline.
+Finished through iteration 1. Artifacts: runs/smoke

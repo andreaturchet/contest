@@ -1,0 +1,150 @@
+2026-10-23 16:29:22.904 Python[95670:19245157] 2026-10-23 16:29:22.904130 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+Trial 1/24: 2/8 (2s)
+Trial 2/24: 0/8 (3s)
+Trial 3/24: 1/8 (5s)
+Trial 4/24: 2/8 (6s)
+Trial 5/24: 0/8 (8s)
+Trial 6/24: 3/8 (9s)
+Trial 7/24: 3/8 (11s)
+Trial 8/24: 3/8 (12s)
+Trial 9/24: 2/8 (14s)
+Trial 10/24: 1/8 (15s)
+Trial 11/24: 2/8 (16s)
+Trial 12/24: 0/8 (17s)
+Trial 13/24: 1/8 (19s)
+Trial 14/24: 0/8 (20s)
+Trial 15/24: 1/8 (21s)
+Trial 16/24: 0/8 (23s)
+Trial 17/24: 2/8 (24s)
+Trial 18/24: 0/8 (25s)
+Trial 19/24: 1/8 (27s)
+Trial 20/24: 2/8 (28s)
+Trial 21/24: 1/8 (30s)
+Trial 22/24: 2/8 (31s)
+Trial 23/24: 3/8 (33s)
+Trial 24/24: 1/8 (34s)
+Confirm trial 5: 8/32
+Confirm trial 6: 12/32
+Confirm trial 7: 10/32
+Confirm trial 22: 3/32
+Confirm trial 0: 9/32
+Game 1/100: A wins as CYAN, 26 actions
+Game 2/100: A loses as MAGENTA, 18 actions
+Game 3/100: A wins as CYAN, 29 actions
+Game 4/100: A loses as MAGENTA, 18 actions
+Game 5/100: A loses as CYAN, 32 actions
+Game 6/100: A loses as MAGENTA, 34 actions
+Game 7/100: A loses as CYAN, 24 actions
+Game 8/100: A loses as MAGENTA, 22 actions
+Game 9/100: A loses as CYAN, 20 actions
+Game 10/100: A loses as MAGENTA, 30 actions
+Game 11/100: A loses as CYAN, 32 actions
+Game 12/100: A loses as MAGENTA, 18 actions
+Game 13/100: A loses as CYAN, 32 actions
+Game 14/100: A loses as MAGENTA, 18 actions
+Game 15/100: A loses as CYAN, 20 actions
+Game 16/100: A loses as MAGENTA, 26 actions
+Game 17/100: A loses as CYAN, 28 actions
+Game 18/100: A loses as MAGENTA, 22 actions
+Game 19/100: A loses as CYAN, 40 actions
+Game 20/100: A loses as MAGENTA, 14 actions
+Game 21/100: A wins as CYAN, 17 actions
+Game 22/100: A wins as MAGENTA, 32 actions
+Game 23/100: A wins as CYAN, 22 actions
+Game 24/100: A wins as MAGENTA, 28 actions
+Game 25/100: A wins as CYAN, 38 actions
+Game 26/100: A wins as MAGENTA, 32 actions
+Game 27/100: A loses as CYAN, 16 actions
+Game 28/100: A loses as MAGENTA, 26 actions
+Game 29/100: A loses as CYAN, 24 actions
+Game 30/100: A loses as MAGENTA, 26 actions
+Game 31/100: A loses as CYAN, 32 actions
+Game 32/100: A wins as MAGENTA, 36 actions
+Game 33/100: A loses as CYAN, 24 actions
+Game 34/100: A loses as MAGENTA, 26 actions
+Game 35/100: A loses as CYAN, 24 actions
+Game 36/100: A wins as MAGENTA, 32 actions
+Game 37/100: A loses as CYAN, 32 actions
+Game 38/100: A wins as MAGENTA, 32 actions
+Game 39/100: A loses as CYAN, 24 actions
+Game 40/100: A loses as MAGENTA, 22 actions
+Game 41/100: A loses as CYAN, 24 actions
+Game 42/100: A loses as MAGENTA, 22 actions
+Game 43/100: A loses as CYAN, 32 actions
+Game 44/100: A loses as MAGENTA, 25 actions
+Game 45/100: A loses as CYAN, 32 actions
+Game 46/100: A loses as MAGENTA, 26 actions
+Game 47/100: A loses as CYAN, 31 actions
+Game 48/100: A loses as MAGENTA, 26 actions
+Game 49/100: A loses as CYAN, 20 actions
+Game 50/100: A loses as MAGENTA, 18 actions
+Game 51/100: A loses as CYAN, 32 actions
+Game 52/100: A wins as MAGENTA, 32 actions
+Game 53/100: A loses as CYAN, 40 actions
+Game 54/100: A loses as MAGENTA, 26 actions
+Game 55/100: A loses as CYAN, 20 actions
+Game 56/100: A loses as MAGENTA, 22 actions
+Game 57/100: A loses as CYAN, 28 actions
+Game 58/100: A loses as MAGENTA, 22 actions
+Game 59/100: A loses as CYAN, 24 actions
+Game 60/100: A loses as MAGENTA, 22 actions
+Game 61/100: A loses as CYAN, 20 actions
+Game 62/100: A wins as MAGENTA, 24 actions
+Game 63/100: A loses as CYAN, 28 actions
+Game 64/100: A loses as MAGENTA, 26 actions
+Game 65/100: A loses as CYAN, 20 actions
+Game 66/100: A wins as MAGENTA, 32 actions
+Game 67/100: A loses as CYAN, 20 actions
+Game 68/100: A loses as MAGENTA, 26 actions
+Game 69/100: A loses as CYAN, 28 actions
+Game 70/100: A loses as MAGENTA, 22 actions
+Game 71/100: A loses as CYAN, 32 actions
+Game 72/100: A loses as MAGENTA, 25 actions
+Game 73/100: A loses as CYAN, 20 actions
+Game 74/100: A loses as MAGENTA, 14 actions
+Game 75/100: A loses as CYAN, 20 actions
+Game 76/100: A loses as MAGENTA, 22 actions
+Game 77/100: A loses as CYAN, 24 actions
+Game 78/100: A loses as MAGENTA, 22 actions
+Game 79/100: A wins as CYAN, 26 actions
+Game 80/100: A loses as MAGENTA, 26 actions
+Game 81/100: A loses as CYAN, 24 actions
+Game 82/100: A loses as MAGENTA, 26 actions
+Game 83/100: A loses as CYAN, 28 actions
+Game 84/100: A wins as MAGENTA, 32 actions
+Game 85/100: A wins as CYAN, 14 actions
+Game 86/100: A loses as MAGENTA, 22 actions
+Game 87/100: A loses as CYAN, 20 actions
+Game 88/100: A loses as MAGENTA, 22 actions
+Game 89/100: A wins as CYAN, 34 actions
+Game 90/100: A loses as MAGENTA, 18 actions
+Game 91/100: A loses as CYAN, 20 actions
+Game 92/100: A loses as MAGENTA, 26 actions
+Game 93/100: A loses as CYAN, 24 actions
+Game 94/100: A loses as MAGENTA, 22 actions
+Game 95/100: A loses as CYAN, 20 actions
+Game 96/100: A loses as MAGENTA, 26 actions
+Game 97/100: A loses as CYAN, 20 actions
+Game 98/100: A loses as MAGENTA, 26 actions
+Game 99/100: A loses as CYAN, 28 actions
+Game 100/100: A loses as MAGENTA, 22 actions
+{
+  "model_a": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/tuning/candidate.onnx",
+  "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/baselines/current.onnx",
+  "games": 100,
+  "wins": 18,
+  "win_rate": 0.18,
+  "wilson_95": [
+    0.1170022549894635,
+    0.2666735838630073
+  ],
+  "seed": 1000000,
+  "simulations": 100,
+  "seconds": 18.287482541054487,
+  "sha256_a": "4f6070aeefb0cf0f0482d37302a2105ecf32a0d0c6e88c416d0e74b7957758be",
+  "sha256_b": "88814410deb59295d270a17cbf421091569d04c067ab4a643147f333345f8e41",
+  "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+  "cyan_wins": 8,
+  "magenta_wins": 10
+}
+Improvement not established; retain baseline.

@@ -1,0 +1,20 @@
+{
+  "model_a": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/tournament_adapted/best.onnx",
+  "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/baselines/current.onnx",
+  "games": 200,
+  "wins": 140,
+  "win_rate": 0.7,
+  "wilson_95": [
+    0.6332093162728074,
+    0.7592525531762859
+  ],
+  "seed": 4000000,
+  "simulations": 100,
+  "seconds": 67.29793995805085,
+  "sha256_a": "5a370f5cea2a41834eadd22e8b312b4104c73c7041afeb394d5780b6886d9a6f",
+  "sha256_b": "88814410deb59295d270a17cbf421091569d04c067ab4a643147f333345f8e41",
+  "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+  "cyan_wins": 69,
+  "magenta_wins": 71,
+  "promotion_passed": true
+}

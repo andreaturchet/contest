@@ -1,0 +1,174 @@
+[16:16:21] ============================================================
+[16:16:21] START iters=50 games=80 sp_sims=48 workers=6 net=48x4
+[16:16:21] --- iter 1 : self-play 80 games @ 48 sims ---
+[16:16:23]   self-play done in 2s; buffer=2454 samples
+[16:16:33]     train: policy_ce=5.522 value_mse=0.375 (samples=2454, epochs=5)
+/Users/ciwrl/Downloads/contest/level-3/env/train_az.py:183: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html
+  torch.onnx.export(
+[16:16:34]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:16:39]   candidate win-rate vs best = 0%
+[16:16:39]   kept previous best
+[16:16:39]   iter 1 total 18s
+[16:16:39] --- iter 2 : self-play 80 games @ 48 sims ---
+[16:16:41]   self-play done in 2s; buffer=4883 samples
+[16:16:57]     train: policy_ce=4.458 value_mse=0.280 (samples=4883, epochs=5)
+[16:16:58]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:17:03]   candidate win-rate vs best = 10%
+[16:17:03]   kept previous best
+[16:17:03]   iter 2 total 24s
+[16:17:03] --- iter 3 : self-play 80 games @ 48 sims ---
+[16:17:04]   self-play done in 2s; buffer=7198 samples
+[16:23:29] ============================================================
+[16:23:29] START iters=60 games=80 sp_sims=48 workers=6 net=48x4
+[16:23:29] resumed net from checkpoint
+[16:23:29] --- iter 1 : self-play 80 games @ 48 sims ---
+[16:23:31]   self-play done in 2s; buffer=2454 samples
+[16:23:40]     train: policy_ce=3.694 value_mse=0.069 (samples=2454, epochs=5)
+/Users/ciwrl/Downloads/contest/level-3/env/train_az.py:183: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html
+  torch.onnx.export(
+[16:23:41]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:23:46]   candidate win-rate vs best = 10%
+[16:23:46]   kept previous best
+[16:23:46]   iter 1 total 17s
+[16:23:46] --- iter 2 : self-play 80 games @ 48 sims ---
+[16:23:48]   self-play done in 2s; buffer=4883 samples
+[16:24:05]     train: policy_ce=3.347 value_mse=0.128 (samples=4883, epochs=5)
+[16:24:05]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:24:10]   candidate win-rate vs best = 15%
+[16:24:10]   kept previous best
+[16:24:10]   iter 2 total 24s
+[16:24:10] --- iter 3 : self-play 80 games @ 48 sims ---
+[16:24:12]   self-play done in 2s; buffer=7198 samples
+[16:24:35]     train: policy_ce=3.145 value_mse=0.204 (samples=7198, epochs=5)
+[16:24:36]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:24:41]   candidate win-rate vs best = 10%
+[16:24:41]   kept previous best
+[16:24:41]   iter 3 total 31s
+[16:24:41] --- iter 4 : self-play 80 games @ 48 sims ---
+[16:24:43]   self-play done in 2s; buffer=9526 samples
+[16:25:14]     train: policy_ce=3.018 value_mse=0.183 (samples=9526, epochs=5)
+[16:25:15]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:25:21]   candidate win-rate vs best = 20%
+[16:25:21]   kept previous best
+[16:25:21]   iter 4 total 40s
+[16:25:21] --- iter 5 : self-play 80 games @ 48 sims ---
+[16:25:22]   self-play done in 2s; buffer=9451 samples
+[16:25:53]     train: policy_ce=2.937 value_mse=0.158 (samples=9451, epochs=5)
+[16:25:53]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:25:58]   candidate win-rate vs best = 10%
+[16:25:58]   kept previous best
+[16:25:58]   iter 5 total 38s
+[16:25:58] --- iter 6 : self-play 80 games @ 48 sims ---
+[16:26:00]   self-play done in 2s; buffer=9457 samples
+[16:26:30]     train: policy_ce=2.907 value_mse=0.176 (samples=9457, epochs=5)
+[16:26:31]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:26:36]   candidate win-rate vs best = 25%
+[16:26:36]   kept previous best
+[16:26:36]   iter 6 total 38s
+[16:26:36] --- iter 7 : self-play 80 games @ 48 sims ---
+[16:26:37]   self-play done in 2s; buffer=9560 samples
+[16:27:09]     train: policy_ce=2.880 value_mse=0.177 (samples=9560, epochs=5)
+[16:27:10]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:27:15]   candidate win-rate vs best = 15%
+[16:27:15]   kept previous best
+[16:27:15]   iter 7 total 39s
+[16:27:15] --- iter 8 : self-play 80 games @ 48 sims ---
+[16:27:16]   self-play done in 2s; buffer=9694 samples
+[16:27:48]     train: policy_ce=2.866 value_mse=0.158 (samples=9694, epochs=5)
+[16:27:49]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:27:54]   candidate win-rate vs best = 25%
+[16:27:54]   kept previous best
+[16:27:54]   iter 8 total 39s
+[16:27:54] --- iter 9 : self-play 80 games @ 48 sims ---
+[16:27:56]   self-play done in 2s; buffer=9729 samples
+[16:28:28]     train: policy_ce=2.892 value_mse=0.151 (samples=9729, epochs=5)
+[16:28:29]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:28:34]   candidate win-rate vs best = 20%
+[16:28:34]   kept previous best
+[16:28:34]   iter 9 total 40s
+[16:28:34] --- iter 10 : self-play 80 games @ 48 sims ---
+[16:28:35]   self-play done in 2s; buffer=9653 samples
+[16:29:07]     train: policy_ce=2.836 value_mse=0.150 (samples=9653, epochs=5)
+[16:29:07]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:29:12]   candidate win-rate vs best = 25%
+[16:29:12]   kept previous best
+[16:29:12]   iter 10 total 38s
+[16:29:12] --- iter 11 : self-play 80 games @ 48 sims ---
+[16:29:14]   self-play done in 2s; buffer=9626 samples
+[16:29:44]     train: policy_ce=2.828 value_mse=0.153 (samples=9626, epochs=5)
+[16:29:45]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:29:51]   candidate win-rate vs best = 30%
+[16:29:51]   kept previous best
+[16:29:51]   iter 11 total 38s
+[16:29:51] --- iter 12 : self-play 80 games @ 48 sims ---
+[16:29:52]   self-play done in 2s; buffer=9541 samples
+[16:30:22]     train: policy_ce=2.828 value_mse=0.163 (samples=9541, epochs=5)
+[16:30:23]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:30:27]   candidate win-rate vs best = 45%
+[16:30:27]   kept previous best
+[16:30:27]   iter 12 total 37s
+[16:30:27] --- iter 13 : self-play 80 games @ 48 sims ---
+[16:30:29]   self-play done in 2s; buffer=9591 samples
+[16:30:59]     train: policy_ce=2.830 value_mse=0.155 (samples=9591, epochs=5)
+[16:31:00]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:31:05]   candidate win-rate vs best = 45%
+[16:31:05]   kept previous best
+[16:31:05]   iter 13 total 38s
+[16:31:05] --- iter 14 : self-play 80 games @ 48 sims ---
+[16:31:07]   self-play done in 2s; buffer=9640 samples
+[16:31:38]     train: policy_ce=2.827 value_mse=0.160 (samples=9640, epochs=5)
+[16:31:39]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:31:44]   candidate win-rate vs best = 35%
+[16:31:44]   kept previous best
+[16:31:44]   iter 14 total 38s
+[16:31:44] --- iter 15 : self-play 80 games @ 48 sims ---
+[16:31:45]   self-play done in 2s; buffer=9567 samples
+[16:32:16]     train: policy_ce=2.833 value_mse=0.158 (samples=9567, epochs=5)
+[16:32:17]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:32:22]   candidate win-rate vs best = 25%
+[16:32:22]   kept previous best
+[16:32:22]   iter 15 total 38s
+[16:32:22] --- iter 16 : self-play 80 games @ 48 sims ---
+[16:32:24]   self-play done in 2s; buffer=9634 samples
+[16:32:55]     train: policy_ce=2.827 value_mse=0.140 (samples=9634, epochs=5)
+[16:32:56]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:33:00]   candidate win-rate vs best = 20%
+[16:33:00]   kept previous best
+[16:33:00]   iter 16 total 38s
+[16:33:00] --- iter 17 : self-play 80 games @ 48 sims ---
+[16:33:02]   self-play done in 2s; buffer=9523 samples
+[16:33:33]     train: policy_ce=2.816 value_mse=0.138 (samples=9523, epochs=5)
+[16:33:34]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:33:39]   candidate win-rate vs best = 45%
+[16:33:39]   kept previous best
+[16:33:39]   iter 17 total 39s
+[16:33:39] --- iter 18 : self-play 80 games @ 48 sims ---
+[16:33:41]   self-play done in 2s; buffer=9504 samples
+[16:34:14]     train: policy_ce=2.817 value_mse=0.149 (samples=9504, epochs=5)
+[16:34:15]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:34:21]   candidate win-rate vs best = 35%
+[16:34:21]   kept previous best
+[16:34:21]   iter 18 total 42s
+[16:34:21] --- iter 19 : self-play 80 games @ 48 sims ---
+[16:34:23]   self-play done in 2s; buffer=9574 samples
+[16:34:56]     train: policy_ce=2.790 value_mse=0.140 (samples=9574, epochs=5)
+[16:34:57]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:35:03]   candidate win-rate vs best = 55%
+[16:35:03]   >> PROMOTED iter 19 as new best (copied to contest/model.onnx)
+[16:35:03]   iter 19 total 42s
+[16:35:03] --- iter 20 : self-play 80 games @ 48 sims ---
+[16:35:11]   self-play done in 9s; buffer=9675 samples
+[16:35:45]     train: policy_ce=2.758 value_mse=0.129 (samples=9675, epochs=5)
+[16:35:46]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:35:59]   candidate win-rate vs best = 55%
+[16:35:59]   >> PROMOTED iter 20 as new best (copied to contest/model.onnx)
+[16:35:59]   iter 20 total 56s
+[16:35:59] --- iter 21 : self-play 80 games @ 48 sims ---
+[16:36:07]   self-play done in 8s; buffer=9794 samples
+[16:36:39]     train: policy_ce=2.744 value_mse=0.145 (samples=9794, epochs=5)
+[16:36:40]   candidate ACCEPTED (2763 KiB); A/B vs best @ 50 sims x20
+[16:36:52]   candidate win-rate vs best = 35%
+[16:36:52]   kept previous best
+[16:36:52]   iter 21 total 53s
+[16:36:52] --- iter 22 : self-play 80 games @ 48 sims ---
+[16:37:01]   self-play done in 9s; buffer=9956 samples
