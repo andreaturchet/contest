@@ -1,0 +1,11 @@
+{
+  "mode": "mse",
+  "reanalysed": false,
+  "q_mix": 0.5,
+  "steps": 600,
+  "lr": 0.0001,
+  "seed": 931,
+  "screen_seed": 220000000,
+  "screen_games": 48,
+  "run": "runs/round3/mse_original"
+}

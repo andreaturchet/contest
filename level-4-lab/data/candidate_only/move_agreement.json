@@ -1,0 +1,306 @@
+[
+  {
+    "match_id": 12746,
+    "agreements": {
+      "CYAN": [
+        16,
+        16
+      ],
+      "MAGENTA": [
+        8,
+        14
+      ]
+    },
+    "you": "CYAN",
+    "side_inferred": false,
+    "winner": "MAGENTA"
+  },
+  {
+    "match_id": 12856,
+    "agreements": {
+      "CYAN": [
+        10,
+        20
+      ],
+      "MAGENTA": [
+        20,
+        20
+      ]
+    },
+    "you": "MAGENTA",
+    "side_inferred": false,
+    "winner": "MAGENTA"
+  },
+  {
+    "match_id": 13002,
+    "agreements": {
+      "CYAN": [
+        14,
+        14
+      ],
+      "MAGENTA": [
+        2,
+        12
+      ]
+    },
+    "you": "CYAN",
+    "side_inferred": false,
+    "winner": "CYAN"
+  },
+  {
+    "match_id": 13127,
+    "agreements": {
+      "CYAN": [
+        20,
+        20
+      ],
+      "MAGENTA": [
+        6,
+        18
+      ]
+    },
+    "you": "CYAN",
+    "side_inferred": false,
+    "winner": "CYAN"
+  },
+  {
+    "match_id": 13160,
+    "agreements": {
+      "CYAN": [
+        10,
+        14
+      ],
+      "MAGENTA": [
+        12,
+        12
+      ]
+    },
+    "you": "MAGENTA",
+    "side_inferred": false,
+    "winner": "MAGENTA"
+  },
+  {
+    "match_id": 13362,
+    "agreements": {
+      "CYAN": [
+        10,
+        24
+      ],
+      "MAGENTA": [
+        22,
+        22
+      ]
+    },
+    "you": "MAGENTA",
+    "side_inferred": false,
+    "winner": "CYAN"
+  },
+  {
+    "match_id": 13447,
+    "agreements": {
+      "CYAN": [
+        18,
+        18
+      ],
+      "MAGENTA": [
+        8,
+        18
+      ]
+    },
+    "you": "CYAN",
+    "side_inferred": false,
+    "winner": "MAGENTA"
+  },
+  {
+    "match_id": 13512,
+    "agreements": {
+      "CYAN": [
+        16,
+        16
+      ],
+      "MAGENTA": [
+        6,
+        14
+      ]
+    },
+    "you": "CYAN",
+    "side_inferred": false,
+    "winner": "CYAN"
+  },
+  {
+    "match_id": 13554,
+    "agreements": {
+      "CYAN": [
+        11,
+        20
+      ],
+      "MAGENTA": [
+        18,
+        18
+      ]
+    },
+    "you": "MAGENTA",
+    "side_inferred": false,
+    "winner": "MAGENTA"
+  },
+  {
+    "match_id": 13822,
+    "agreements": {
+      "CYAN": [
+        10,
+        14
+      ],
+      "MAGENTA": [
+        14,
+        14
+      ]
+    },
+    "you": "MAGENTA",
+    "side_inferred": false,
+    "winner": "CYAN"
+  },
+  {
+    "match_id": 13867,
+    "agreements": {
+      "CYAN": [
+        24,
+        24
+      ],
+      "MAGENTA": [
+        9,
+        23
+      ]
+    },
+    "you": "CYAN",
+    "side_inferred": false,
+    "winner": "MAGENTA"
+  },
+  {
+    "match_id": 14058,
+    "agreements": {
+      "CYAN": [
+        8,
+        20
+      ],
+      "MAGENTA": [
+        20,
+        20
+      ]
+    },
+    "you": "MAGENTA",
+    "side_inferred": true,
+    "winner": "CYAN"
+  },
+  {
+    "match_id": 14235,
+    "agreements": {
+      "CYAN": [
+        10,
+        10
+      ],
+      "MAGENTA": [
+        7,
+        10
+      ]
+    },
+    "you": "CYAN",
+    "side_inferred": true,
+    "winner": "MAGENTA"
+  },
+  {
+    "match_id": 14372,
+    "agreements": {
+      "CYAN": [
+        10,
+        20
+      ],
+      "MAGENTA": [
+        18,
+        18
+      ]
+    },
+    "you": "MAGENTA",
+    "side_inferred": true,
+    "winner": "CYAN"
+  },
+  {
+    "match_id": 14437,
+    "agreements": {
+      "CYAN": [
+        20,
+        20
+      ],
+      "MAGENTA": [
+        11,
+        18
+      ]
+    },
+    "you": "CYAN",
+    "side_inferred": true,
+    "winner": "CYAN"
+  },
+  {
+    "match_id": 14663,
+    "agreements": {
+      "CYAN": [
+        7,
+        10
+      ],
+      "MAGENTA": [
+        8,
+        8
+      ]
+    },
+    "you": "MAGENTA",
+    "side_inferred": true,
+    "winner": "CYAN"
+  },
+  {
+    "match_id": 14772,
+    "agreements": {
+      "CYAN": [
+        12,
+        12
+      ],
+      "MAGENTA": [
+        4,
+        10
+      ]
+    },
+    "you": "CYAN",
+    "side_inferred": true,
+    "winner": "CYAN"
+  },
+  {
+    "match_id": 14885,
+    "agreements": {
+      "CYAN": [
+        5,
+        11
+      ],
+      "MAGENTA": [
+        10,
+        10
+      ]
+    },
+    "you": "MAGENTA",
+    "side_inferred": true,
+    "winner": "CYAN"
+  },
+  {
+    "match_id": 14912,
+    "agreements": {
+      "CYAN": [
+        20,
+        20
+      ],
+      "MAGENTA": [
+        11,
+        20
+      ]
+    },
+    "you": "CYAN",
+    "side_inferred": true,
+    "winner": "CYAN"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "step": 300,
+    "trainable_parameters": 1128,
+    "policy_loss": 1.788529634475708,
+    "kl": 0.013769097626209259,
+    "validation_policy_ce": 1.7121959905340975,
+    "validation_entropy": 1.825343001670405,
+    "original_validation_entropy": 1.987275787939628,
+    "max_value_change": 0.0,
+    "screen": {
+      "model_a": "runs/round3/policy_only_claude/step_300.onnx",
+      "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/candidate_v2.onnx",
+      "games": 64,
+      "wins": 32,
+      "win_rate": 0.5,
+      "wilson_95": [
+        0.3810209474394701,
+        0.6189790525605299
+      ],
+      "seed": 320000000,
+      "simulations": 100,
+      "seconds": 40.78377937502228,
+      "sha256_a": "4fb0620510ffefaf0d77c7785f99234b862a8d0db2edba2501270477c0907cca",
+      "sha256_b": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1",
+      "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+      "cyan_wins": 10,
+      "magenta_wins": 22
+    },
+    "seconds": 48.805118207936175
+  },
+  {
+    "step": 600,
+    "trainable_parameters": 1128,
+    "policy_loss": 1.7897889614105225,
+    "kl": 0.01704966276884079,
+    "validation_policy_ce": 1.7128547389681141,
+    "validation_entropy": 1.8164314408512676,
+    "original_validation_entropy": 1.987275787939628,
+    "max_value_change": 0.0,
+    "screen": {
+      "model_a": "runs/round3/policy_only_claude/step_600.onnx",
+      "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/candidate_v2.onnx",
+      "games": 64,
+      "wins": 37,
+      "win_rate": 0.578125,
+      "wilson_95": [
+        0.456100315400829,
+        0.6913021752565451
+      ],
+      "seed": 320000000,
+      "simulations": 100,
+      "seconds": 35.15432666707784,
+      "sha256_a": "9550ecb375635d24c06d4b1871ae3ef83e62bd2d56d187e7da1169bc2ffe8e95",
+      "sha256_b": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1",
+      "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+      "cyan_wins": 16,
+      "magenta_wins": 21
+    },
+    "seconds": 92.76735745801125
+  }
+]

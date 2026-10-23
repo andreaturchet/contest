@@ -1,0 +1,89 @@
+[
+  {
+    "step": 100,
+    "versus_v2": 18,
+    "screen_games": 40,
+    "v2_wilson": [
+      0.3070530781090492,
+      0.6017090820106794
+    ],
+    "heuristic_wins": 12,
+    "heuristic_games": 20,
+    "holdout": {
+      "policy_hit_rate": 0.7924528301886793,
+      "policy_n": 318,
+      "value_sign_rate": 0.655,
+      "n": 400
+    },
+    "policy_loss": 2.0262274742126465,
+    "value_loss": 0.5682135224342346,
+    "anchor_loss": 0.002042739652097225,
+    "seconds": 34.04470212501474,
+    "selected": true
+  },
+  {
+    "step": 200,
+    "versus_v2": 21,
+    "screen_games": 40,
+    "v2_wilson": [
+      0.3749736210669248,
+      0.670645298873211
+    ],
+    "heuristic_wins": 16,
+    "heuristic_games": 20,
+    "holdout": {
+      "policy_hit_rate": 0.7955974842767296,
+      "policy_n": 318,
+      "value_sign_rate": 0.66,
+      "n": 400
+    },
+    "policy_loss": 1.8997763395309448,
+    "value_loss": 0.5971213579177856,
+    "anchor_loss": 0.002028993796557188,
+    "seconds": 68.21365395898465,
+    "selected": true
+  },
+  {
+    "step": 300,
+    "versus_v2": 24,
+    "screen_games": 40,
+    "v2_wilson": [
+      0.44595893660346186,
+      0.7365167431570808
+    ],
+    "heuristic_wins": 11,
+    "heuristic_games": 20,
+    "holdout": {
+      "policy_hit_rate": 0.7924528301886793,
+      "policy_n": 318,
+      "value_sign_rate": 0.6575,
+      "n": 400
+    },
+    "policy_loss": 2.007131814956665,
+    "value_loss": 0.5846507549285889,
+    "anchor_loss": 0.003070531878620386,
+    "seconds": 100.5197273340309,
+    "selected": true
+  },
+  {
+    "step": 400,
+    "versus_v2": 17,
+    "screen_games": 40,
+    "v2_wilson": [
+      0.28509392559950375,
+      0.5780493145800892
+    ],
+    "heuristic_wins": 14,
+    "heuristic_games": 20,
+    "holdout": {
+      "policy_hit_rate": 0.8050314465408805,
+      "policy_n": 318,
+      "value_sign_rate": 0.68,
+      "n": 400
+    },
+    "policy_loss": 1.831855058670044,
+    "value_loss": 0.6367207765579224,
+    "anchor_loss": 0.0027707533445209265,
+    "seconds": 136.2942393750418
+  }
+]

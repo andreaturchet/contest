@@ -1,0 +1,15 @@
+2026-10-23 17:45:05.653 Python[41791:19593161] 2026-10-23 17:45:05.653895 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+training 100 / 1114 unique 98 seconds 8.9
+training 200 / 1114 unique 196 seconds 18.6
+training 300 / 1114 unique 289 seconds 27.4
+training 400 / 1114 unique 386 seconds 35.7
+training 500 / 1114 unique 476 seconds 44.2
+training 600 / 1114 unique 568 seconds 53.8
+training 700 / 1114 unique 663 seconds 63.4
+training 800 / 1114 unique 750 seconds 71.0
+training 900 / 1114 unique 841 seconds 79.8
+training 1000 / 1114 unique 937 seconds 89.0
+training 1100 / 1114 unique 1032 seconds 97.6
+validation 100 / 204 unique 1141 seconds 107.5
+validation 200 / 204 unique 1237 seconds 116.6
+{"training": {"samples": 1114, "mean_abs_outcome_search_difference": 0.7329880386209316}, "validation": {"samples": 204, "mean_abs_outcome_search_difference": 0.5607326438047868}, "teacher_sha256": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1", "simulations": 600, "unique_positions": 1241, "seconds": 116.74329420807771, "value_definition": "Root-team q = sum(root.W.values()) / sum(root.N.values()); no extra sign flip", "split": "Preserved whole-match training/validation files from round 2; shared positions reuse search"}

@@ -128,6 +128,20 @@ def export(model,path):
         else:nodes.append(node)
     del m.graph.node[:]
     m.graph.node.extend(nodes)
+    # CPU Tanh approximations can exceed one by a few float32 ulps on the
+    # validator's extreme inputs. The contract uses strict numeric bounds.
+    value_name=m.graph.output[1].name
+    raw_name='export_unclipped_value'
+    for node in m.graph.node:
+        for i,name in enumerate(node.output):
+            if name==value_name:node.output[i]=raw_name
+        for i,name in enumerate(node.input):
+            if name==value_name:node.input[i]=raw_name
+    m.graph.initializer.extend([
+        onnx.numpy_helper.from_array(np.asarray(-1.,np.float32),'export_value_min'),
+        onnx.numpy_helper.from_array(np.asarray(1.,np.float32),'export_value_max')])
+    m.graph.node.append(onnx.helper.make_node('Clip',
+        [raw_name,'export_value_min','export_value_max'],[value_name]))
     m.graph.output[0].type.tensor_type.shape.dim[1].dim_value=4096
     # Constant-only reshape/index arguments are checked by the actual contract.
     onnx.checker.check_model(m)

@@ -61,7 +61,11 @@ def main():
     p.add_argument("--input",type=Path,default=ROOT/"data/tournament-matches.json")
     p.add_argument("--teacher",type=Path,default=ROOT/"baselines/current.onnx")
     p.add_argument("--simulations",type=int,default=600)
+    p.add_argument("--output-dir",type=Path,default=ROOT)
     args=p.parse_args()
+    output=args.output_dir
+    (output/"data").mkdir(parents=True,exist_ok=True)
+    (output/"replays").mkdir(parents=True,exist_ok=True)
     exported=json.loads(args.input.read_text())
     assert len({x['match_id'] for x in exported})==len(exported),"Duplicate match IDs"
     ev=OnnxEvaluator(args.teacher)
@@ -152,13 +156,13 @@ def main():
                  input_sha256=hashlib.sha256(args.input.read_bytes()).hexdigest(),
                  teacher_sha256=hashlib.sha256(args.teacher.read_bytes()).hexdigest(),
                  teacher_simulations=args.simulations)
-    (ROOT/"data/loss_analysis.json").write_text(json.dumps(summary,indent=2))
+    (output/"data/loss_analysis.json").write_text(json.dumps(summary,indent=2))
     for name,items in [('tournament_training',dataset),('tournament_validation',validation)]:
-        with gzip.open(ROOT/f"data/{name}.pkl.gz","wb") as f:pickle.dump(items,f,protocol=5)
+        with gzip.open(output/f"data/{name}.pkl.gz","wb") as f:pickle.dump(items,f,protocol=5)
     report=dict(model_a="Our exported tournament games",model_b="Tournament opponents",
         wins=stats['wins'],games=len(games),win_rate=stats['wins']/len(games),simulations=100)
     data=dict(report=report,games=games)
-    (ROOT/"replays/tournament.html").write_text((ROOT/"replay.html").read_text().replace(
+    (output/"replays/tournament.html").write_text((ROOT/"replay.html").read_text().replace(
         "/* MATCH_DATA */null",json.dumps(data).replace("</","<\\/")))
     lines=["# Tournament loss analysis", "",f"Verified {len(games)} full protocols against the frozen official engine: {stats['wins']} wins, {stats['losses']} losses. {len(missing)} exports lack a protocol and cannot be diagnosed.",
         "", "The export's score is Cyan's result. The actual winner and the `you` color determine our win/loss; a score of zero is a win when we played Magenta.",
@@ -171,7 +175,7 @@ def main():
         lines.append("")
     lines.extend(["## Training use", "",f"Training: {len(dataset)} examples; validation: {len(validation)} examples. Entire match IDs divisible by five are reserved for validation. Search targets use {args.simulations} simulations and no root noise. Tactical repairs receive extra weight. Outcomes come from the recorded game, so they are not claims about the safer alternative's final result.",
         "", "This export does not identify model hashes or opponent model files. Results cannot be attributed to a particular saved checkpoint, and the strongest opponents cannot be recreated from their weights. The action traces are sufficient for tactical training and exact replay."])
-    (ROOT/"LOSS_ANALYSIS.md").write_text("\n".join(lines)+"\n")
+    (output/"LOSS_ANALYSIS.md").write_text("\n".join(lines)+"\n")
     print(json.dumps({k:v for k,v in summary.items() if k!='losses'},indent=2),flush=True)
 
 

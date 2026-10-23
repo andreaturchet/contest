@@ -20,7 +20,7 @@ from workers import actor,augment,episode
 def collect(evaluate,n_games,n_workers,simulations,seed,opponents):
     if n_workers==0:
         return [s for g in range(n_games) for s in episode(evaluate,scene(),seed+g,
-                  simulations,opponents[g%len(opponents)] if opponents and g%3==0 else None)]
+                  simulations,opponents[(g//3)%len(opponents)] if opponents and g%3==0 else None)]
     ctx=mp.get_context("spawn")
     n_workers=min(n_workers,n_games)
     requests,results=ctx.Queue(),ctx.Queue()
@@ -92,6 +92,9 @@ def main():
     p.add_argument("--examples",type=Path,default=None,help="Replay-derived tactical training examples")
     p.add_argument("--examples-fraction",type=float,default=.25)
     p.add_argument("--resume",action="store_true")
+    p.add_argument("--warm-start",type=Path,default=None)
+    p.add_argument("--initial-replay",type=Path,default=None)
+    p.add_argument("--opponent",type=Path,action="append",default=[])
     p.add_argument("--skip-final",action="store_true")
     args=p.parse_args()
     if args.games<1 or args.minutes<=0 or args.workers<0:raise ValueError("Invalid training budget")
@@ -104,9 +107,11 @@ def main():
     args.run.mkdir(parents=True,exist_ok=True)
     state_path=args.run/"checkpoint.pt"
     state=torch.load(state_path,map_location="cpu",weights_only=False) if args.resume and state_path.exists() else None
-    arch=state["architecture"] if state else dict(channels=args.channels,blocks=args.blocks)
+    warm=torch.load(args.warm_start,map_location="cpu",weights_only=False) if args.warm_start and not state else None
+    arch=state["architecture"] if state else warm["architecture"] if warm else dict(channels=args.channels,blocks=args.blocks)
     net=Model(**arch)
     if state:net.load_state_dict(state["model"])
+    elif warm:net.load_state_dict(warm["model"])
     elif args.initial_features is not None:
         params=json.loads(args.initial_features.read_text())["params"]
         with torch.no_grad():
@@ -126,12 +131,15 @@ def main():
         torch.set_rng_state(state["torch_rng"])
         if replay_path.exists():
             with gzip.open(replay_path,"rb") as f:replay.extend(pickle.load(f))
+    elif args.initial_replay:
+        with gzip.open(args.initial_replay,"rb") as f:replay.extend(pickle.load(f))
     baseline=ROOT/"baselines/current.onnx"
     champion=ROOT/"baselines/local_champion.onnx"
     best=args.run/"best.onnx"
     if not best.exists():
         export(net,args.run/"initial.onnx");net.to(device)
         shutil.copyfile(args.run/"initial.onnx",best)
+        torch.save(dict(architecture=arch,model={k:v.detach().cpu() for k,v in net.state_dict().items()}),args.run/"best_weights.pt")
     print(f"Device={device}; architecture={arch}; parameters={sum(p.numel() for p in net.parameters()):,}",flush=True)
     print("Baseline and original challenge files are frozen. Only this run directory changes.",flush=True)
     amp_dtype=torch.bfloat16 if device.type=="cuda" and torch.cuda.is_bf16_supported() else torch.float16
@@ -152,6 +160,7 @@ def main():
         net.eval();t=time.monotonic()
         opponents=[str(baseline),str(best)]
         if champion.exists():opponents.append(str(champion))
+        opponents.extend(str(path.resolve()) for path in args.opponent)
         samples=collect(evaluate,args.games,args.workers,args.simulations,
                         args.seed+iteration*10_000,opponents)
         replay.extend(samples)
@@ -202,6 +211,7 @@ def main():
             stats["baseline_wins"]=baseline_result["wins"]
             if result["win_rate"]>=.625 and baseline_result["win_rate"]>=.5:
                 shutil.copyfile(candidate,best)
+                torch.save(dict(architecture=arch,model={k:v.detach().cpu() for k,v in net.state_dict().items()}),args.run/"best_weights.pt")
                 stats["provisional_promotion"]=True
         print(json.dumps(stats),flush=True)
         with (args.run/"history.jsonl").open("a") as f:f.write(json.dumps(stats)+"\n")

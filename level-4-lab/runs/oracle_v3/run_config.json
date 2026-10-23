@@ -1,0 +1,46 @@
+{
+  "method": "exact short-horizon proofs and bare-kernel retrograde labels",
+  "sources": [
+    "Winands, Bjornsson, Saito 2008 MCTS-Solver",
+    "Danihelka, Guez, Schrittwieser, Silver 2022 Gumbel AlphaZero",
+    "Ruoss et al. 2024 ChessBench action-value distillation",
+    "Thompson 1986 retrograde endgame analysis"
+  ],
+  "initial_weights": "runs/recent_auxiliary/adapted_weights.pt",
+  "opponent": "/Users/ciwrl/Downloads/contest/level-4-lab/candidate_v2.onnx",
+  "steps": 400,
+  "batch": 128,
+  "lr": 5e-05,
+  "oracle_fraction": 0.3,
+  "seed": 20261023,
+  "labels": {
+    "train": {
+      "skips": 0,
+      "hot": 143,
+      "flipped_to_win": 2,
+      "flipped_to_loss": 0,
+      "policy_only": 141,
+      "reply": 229
+    },
+    "replay": {
+      "skips": 0,
+      "hot": 1116,
+      "flipped_to_win": 2,
+      "flipped_to_loss": 0,
+      "policy_only": 1114,
+      "reply": 1200
+    },
+    "bare": 4000,
+    "bare_kept": 2372,
+    "random": 103,
+    "children": 2269,
+    "synthetic": 4598,
+    "holdout": 400,
+    "seconds": 131.9960408329498,
+    "nodes_per_second": 665638.967745691
+  },
+  "architecture": {
+    "channels": 32,
+    "blocks": 2
+  }
+}

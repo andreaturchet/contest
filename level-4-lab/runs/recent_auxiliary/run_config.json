@@ -1,0 +1,22 @@
+{
+  "initial_weights": "runs/tournament_adapted/adapted_weights.pt",
+  "training": "runs/recent_tournament/data/tournament_training.pkl.gz",
+  "validation": "runs/recent_tournament/data/tournament_validation.pkl.gz",
+  "replay": "runs/league_v2/replay.pkl.gz",
+  "replay_tail": 12000,
+  "tournament_fraction": 0.5,
+  "auxiliary_weight": 0.15,
+  "auxiliary_targets": [
+    "own direct Kernel win in remaining actions",
+    "enemy direct Kernel win in two actions",
+    "own Kernel has adjacent non-Kernel guard"
+  ],
+  "training_seed": 4241,
+  "steps": 800,
+  "batch_size": 128,
+  "learning_rate": 0.0002,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0001,
+  "selected_step": 500,
+  "note": "Recipe combines fresher replay and auxiliary supervision; individual effects are not isolated."
+}

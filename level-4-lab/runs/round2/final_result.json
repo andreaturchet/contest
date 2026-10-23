@@ -1,0 +1,21 @@
+{
+  "model_a": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/round2/selected.onnx",
+  "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/round2/incumbent.onnx",
+  "games": 200,
+  "wins": 105,
+  "win_rate": 0.525,
+  "wilson_95": [
+    0.4559739601468475,
+    0.5930837735342891
+  ],
+  "seed": 20000000,
+  "simulations": 100,
+  "seconds": 378.7695005829446,
+  "sha256_a": "547e92c224da0db3e26ce538ab6259eb91629f61596bf59372ab991f12929a20",
+  "sha256_b": "5a370f5cea2a41834eadd22e8b312b4104c73c7041afeb394d5780b6886d9a6f",
+  "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+  "cyan_wins": 53,
+  "magenta_wins": 52,
+  "selection": "symmetry_d4",
+  "promotion_passed": false
+}

@@ -1,0 +1,53 @@
+2026-10-23 17:15:22.201 Python[35832:19543202] 2026-10-23 17:15:22.201319 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+Verified match 13867: loss as CYAN, 55 actions
+Verified match 13822: loss as MAGENTA, 36 actions
+Verified match 13554: win as MAGENTA, 46 actions
+Verified match 13512: win as CYAN, 38 actions
+Verified match 13447: loss as CYAN, 44 actions
+Verified match 13362: loss as MAGENTA, 54 actions
+Verified match 13160: win as MAGENTA, 34 actions
+Verified match 13127: win as CYAN, 46 actions
+Verified match 13002: win as CYAN, 34 actions
+Verified match 12856: win as MAGENTA, 48 actions
+Verified match 12746: loss as CYAN, 38 actions
+Verified match 12611: win as MAGENTA, 32 actions
+Verified match 12585: loss as MAGENTA, 58 actions
+Verified match 12486: win as CYAN, 14 actions
+Verified match 12374: loss as MAGENTA, 34 actions
+Verified match 12054: win as MAGENTA, 28 actions
+Verified match 11988: loss as CYAN, 32 actions
+Verified match 11895: win as CYAN, 26 actions
+Verified match 11807: loss as MAGENTA, 30 actions
+Verified match 11471: win as CYAN, 30 actions
+Verified match 11394: win as MAGENTA, 66 actions
+Verified match 11199: loss as CYAN, 24 actions
+Verified match 11182: loss as MAGENTA, 14 actions
+Verified match 10944: win as CYAN, 50 actions
+Verified match 10913: loss as MAGENTA, 34 actions
+Verified match 10775: win as CYAN, 30 actions
+Verified match 10668: win as MAGENTA, 24 actions
+{
+  "stats": {
+    "verified_games": 27,
+    "losses": 12,
+    "CYAN_losses": 5,
+    "Kernel captured": 9,
+    "MAGENTA_losses": 7,
+    "bare-Kernel endgame": 3,
+    "wins": 15,
+    "MAGENTA_wins": 7,
+    "CYAN_wins": 8
+  },
+  "missing_protocols": [
+    12272,
+    11724,
+    11694
+  ],
+  "positions": 999,
+  "training_samples": 871,
+  "validation_samples": 148,
+  "avoidable_last_actions": 5,
+  "input_sha256": "c1c3a721017deb69826e0b32164008dba2ba7285771702a1fd09a1f6818bd25a",
+  "teacher_sha256": "5a370f5cea2a41834eadd22e8b312b4104c73c7041afeb394d5780b6886d9a6f",
+  "teacher_simulations": 600
+}

@@ -1,0 +1,3 @@
+2026-10-23 17:54:12.218 Python[44742:19610358] 2026-10-23 17:54:12.218851 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+PASS: 160 D4 legal-action and transition checks on reachable boards
+PASS: submission structure and real-board inference at batches 1, 8, 16

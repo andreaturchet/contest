@@ -44,6 +44,9 @@ KPOL = _f("KPOL", 0.5)
 KPOLT = _f("KPOLT", 1.5)
 CPOL = _f("CPOL", 0.15)
 KCAP = _f("KCAP", 3.0)
+FW_POW = int(_f("FW_POW", 1))     # urgency exponent for firewall terms
+GUARD = _f("GUARD", 0.0)          # >0: unguarded kernels are threatened more
+FW_SYM = int(_f("FW_SYM", 1))     # 1: symmetric firewall term, 0: own side only
 R = 6  # conv radius -> 13x13 footprints
 
 
@@ -128,6 +131,12 @@ class HeuristicV3(nn.Module):
         self.register_buffer("probe", torch.cat(
             [onehot(3, 3), onehot(2, 2), onehot(1, 1), onehot(0, 0)], 1))  # (1,4,8,8) r=0..3
         self.register_buffer("ones_col", torch.ones(64, 1))
+        # 3x3 neighbourhood (minus centre) over non-kernel planes -> bodyguard counts
+        g = torch.zeros(2, 16, 3, 3)
+        for t in range(5):
+            g[0, t] = 1.0; g[1, t + 6] = 1.0
+        g[:, :, 1, 1] = 0.0
+        self.register_buffer("guard_w", g)
 
     def forward(self, obs):
         B = obs.shape[0]
@@ -151,15 +160,29 @@ class HeuristicV3(nn.Module):
         lock_next = torch.cat([lock[:, 1:], one], dim=1)   # ring r+1 locked (ring 4 := locked)
         ind = lock_next - lock                             # (B,4) 1 exactly on next ring
         next_ring = (ind.reshape(-1, 4, 1, 1) * self.rings.reshape(1, 4, 8, 8)).sum(dim=1, keepdim=True)
-        kfw = ((K - EK) * next_ring).sum(dim=(1, 2, 3))
-        pfw = (mat * next_ring).sum(dim=(1, 2, 3))
-        v = v - U * (KFW * kfw + PFW * pfw)
+        if FW_SYM:
+            kfw = ((K - EK) * next_ring).sum(dim=(1, 2, 3))
+            pfw = (mat * next_ring).sum(dim=(1, 2, 3))
+        else:  # own-side only: the enemy can simply step inward, we may not see it
+            kfw = (K * next_ring).sum(dim=(1, 2, 3))
+            own_mat = (obs * torch.relu(self.wval)).sum(dim=1, keepdim=True)
+            pfw = (own_mat * next_ring).sum(dim=(1, 2, 3))
+        Up = U
+        for _ in range(FW_POW - 1):
+            Up = Up * U
+        v = v - Up * (KFW * kfw + PFW * pfw)
 
         # ---- kernel threats via footprint convolution
         reach = torch.nn.functional.conv2d(obs, self.reach_w, padding=R)  # (B,2,8,8)
         own_reach, enemy_reach = reach[:, 0:1], reach[:, 1:2]
-        my_threat = torch.tanh((EK * own_reach).sum(dim=(1, 2, 3)))
-        their_threat = torch.tanh((K * enemy_reach).sum(dim=(1, 2, 3)))
+        if GUARD > 0:
+            guards = torch.nn.functional.conv2d(obs, self.guard_w, padding=1)  # (B,2,8,8)
+            own_g = torch.tanh(GUARD * (K * guards[:, 0:1]).sum(dim=(1, 2, 3)))
+            en_g = torch.tanh(GUARD * (EK * guards[:, 1:2]).sum(dim=(1, 2, 3)))
+        else:
+            own_g = en_g = 0.0
+        my_threat = torch.tanh((EK * own_reach).sum(dim=(1, 2, 3))) * (1.0 - 0.7 * en_g)
+        their_threat = torch.tanh((K * enemy_reach).sum(dim=(1, 2, 3))) * (1.0 - 0.7 * own_g)
         v = v + KTH * (my_threat * (0.5 + A) - their_threat * (1.5 - A))
 
         value = torch.tanh(bm.VALUE_SCALE * v)

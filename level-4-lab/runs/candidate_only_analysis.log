@@ -1,0 +1,41 @@
+2026-10-23 17:25:38.538 Python[38211:19560337] 2026-10-23 17:25:38.538900 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+Verified match 12746: loss as CYAN, 38 actions
+Verified match 12856: win as MAGENTA, 48 actions
+Verified match 13002: win as CYAN, 34 actions
+Verified match 13127: win as CYAN, 46 actions
+Verified match 13160: win as MAGENTA, 34 actions
+Verified match 13362: loss as MAGENTA, 54 actions
+Verified match 13447: loss as CYAN, 44 actions
+Verified match 13512: win as CYAN, 38 actions
+Verified match 13554: win as MAGENTA, 46 actions
+Verified match 13822: loss as MAGENTA, 36 actions
+Verified match 13867: loss as CYAN, 55 actions
+Verified match 14058: loss as MAGENTA, 48 actions
+Verified match 14235: loss as CYAN, 28 actions
+Verified match 14372: loss as MAGENTA, 46 actions
+Verified match 14437: win as CYAN, 46 actions
+Verified match 14663: loss as MAGENTA, 26 actions
+Verified match 14772: win as CYAN, 30 actions
+Verified match 14885: loss as MAGENTA, 29 actions
+Verified match 14912: win as CYAN, 48 actions
+{
+  "stats": {
+    "verified_games": 19,
+    "losses": 10,
+    "CYAN_losses": 4,
+    "bare-Kernel endgame": 4,
+    "wins": 9,
+    "MAGENTA_wins": 3,
+    "CYAN_wins": 6,
+    "MAGENTA_losses": 6,
+    "Kernel captured": 6
+  },
+  "missing_protocols": [],
+  "positions": 774,
+  "training_samples": 695,
+  "validation_samples": 91,
+  "avoidable_last_actions": 3,
+  "input_sha256": "c0f3864c6fcc81a46b8462cc95372211990953b198e11f2dc30f8748f423773a",
+  "teacher_sha256": "5a370f5cea2a41834eadd22e8b312b4104c73c7041afeb394d5780b6886d9a6f",
+  "teacher_simulations": 600
+}

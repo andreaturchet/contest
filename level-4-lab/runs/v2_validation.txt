@@ -1,0 +1,22 @@
+====================================================================
+Colony: One -- submission validator
+model: runs/recent_auxiliary/best.onnx
+====================================================================
+
+1/3  Tournament acceptance contract
+  [ok] accepted by the same acceptance policy used by the tournament server (23.2 ms dry run)
+        the Linux server additionally enforces hard memory/CPU limits this check cannot reproduce on every platform
+
+2/3  Check resource limits
+  [ok] within approximate resource limits
+        resource usage: peak RSS 72 MiB, CPU 0.11 s, open files 7
+        the Linux server measures virtual address space and CPU time via hard POSIX rlimits; psutil RSS and polled CPU are approximations
+
+3/3  Level 3 match limits
+  [ok] one Level 3 match fits the server's limits (22 actions vs GreedyAgent)
+        resource usage: peak RSS 73 MiB, CPU 0.21 s, open files 7
+        the server allows 15 s of CPU time per match; matches vary in length, so leave headroom
+
+====================================================================
+ACCEPTED -- this model satisfies the submission contract.
+====================================================================

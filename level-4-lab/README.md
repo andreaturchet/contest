@@ -1,5 +1,7 @@
 # Independent Level 4 experiment
 
+The recommended upload is `candidate_v2.onnx`. It won 368/600 fresh matches against `candidate.onnx` and 157/200 against the original evaluator. See `RESULTS_ROUND2.md` for validation, research, and limitations. For further A100 training, use `colony_a100_v2.ipynb` with `level4_lab_bundle_v2.zip`; the older notebook below describes the first iteration.
+
 This directory owns its engine snapshot, scene, baselines, runs, and replays. It does not edit the original `level-3` or `level-4` experiment. The existing virtual environment may be used read-only to run the scripts locally.
 
 ## Colab A100

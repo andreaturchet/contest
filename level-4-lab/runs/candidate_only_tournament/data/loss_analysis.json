@@ -1,0 +1,180 @@
+{
+  "stats": {
+    "verified_games": 19,
+    "losses": 10,
+    "CYAN_losses": 4,
+    "bare-Kernel endgame": 4,
+    "wins": 9,
+    "MAGENTA_wins": 3,
+    "CYAN_wins": 6,
+    "MAGENTA_losses": 6,
+    "Kernel captured": 6
+  },
+  "missing_protocols": [],
+  "positions": 774,
+  "training_samples": 695,
+  "validation_samples": 91,
+  "avoidable_last_actions": 3,
+  "losses": [
+    {
+      "id": 12746,
+      "you": "CYAN",
+      "winner": "MAGENTA",
+      "won": false,
+      "actions": 38,
+      "firewall_losses": [],
+      "reason": "bare-Kernel endgame",
+      "avoidable_threats": []
+    },
+    {
+      "id": 13362,
+      "you": "MAGENTA",
+      "winner": "CYAN",
+      "won": false,
+      "actions": 54,
+      "firewall_losses": [],
+      "reason": "Kernel captured",
+      "avoidable_threats": [
+        {
+          "match_id": 13362,
+          "action": 52,
+          "played": 2796,
+          "played_label": "E6 -> D6",
+          "safe_actions": [
+            2802,
+            2786
+          ],
+          "safe_labels": [
+            "E6 -> F7",
+            "E6 -> F5"
+          ],
+          "threat": [
+            "D6 -> E6",
+            "D6 -> E6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13447,
+      "you": "CYAN",
+      "winner": "MAGENTA",
+      "won": false,
+      "actions": 44,
+      "firewall_losses": [],
+      "reason": "bare-Kernel endgame",
+      "avoidable_threats": []
+    },
+    {
+      "id": 13822,
+      "you": "MAGENTA",
+      "winner": "CYAN",
+      "won": false,
+      "actions": 36,
+      "firewall_losses": [],
+      "reason": "bare-Kernel endgame",
+      "avoidable_threats": []
+    },
+    {
+      "id": 13867,
+      "you": "CYAN",
+      "winner": "MAGENTA",
+      "won": false,
+      "actions": 55,
+      "firewall_losses": [],
+      "reason": "Kernel captured",
+      "avoidable_threats": []
+    },
+    {
+      "id": 14058,
+      "you": "MAGENTA",
+      "winner": "CYAN",
+      "won": false,
+      "actions": 48,
+      "firewall_losses": [],
+      "reason": "bare-Kernel endgame",
+      "avoidable_threats": []
+    },
+    {
+      "id": 14235,
+      "you": "CYAN",
+      "winner": "MAGENTA",
+      "won": false,
+      "actions": 28,
+      "firewall_losses": [],
+      "reason": "Kernel captured",
+      "avoidable_threats": []
+    },
+    {
+      "id": 14372,
+      "you": "MAGENTA",
+      "winner": "CYAN",
+      "won": false,
+      "actions": 46,
+      "firewall_losses": [],
+      "reason": "Kernel captured",
+      "avoidable_threats": [
+        {
+          "match_id": 14372,
+          "action": 44,
+          "played": 1228,
+          "played_label": "E3 -> D2",
+          "safe_actions": [
+            1234,
+            1242,
+            1226
+          ],
+          "safe_labels": [
+            "E3 -> F3",
+            "E3 -> F4",
+            "E3 -> F2"
+          ],
+          "threat": [
+            "B3 -> C2",
+            "C2 -> D2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14663,
+      "you": "MAGENTA",
+      "winner": "CYAN",
+      "won": false,
+      "actions": 26,
+      "firewall_losses": [],
+      "reason": "Kernel captured",
+      "avoidable_threats": [
+        {
+          "match_id": 14663,
+          "action": 24,
+          "played": 2723,
+          "played_label": "F6 -> E5",
+          "safe_actions": [
+            2738
+          ],
+          "safe_labels": [
+            "F6 -> F7"
+          ],
+          "threat": [
+            "B3 -> B2",
+            "B2 -> E5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14885,
+      "you": "MAGENTA",
+      "winner": "CYAN",
+      "won": false,
+      "actions": 29,
+      "firewall_losses": [],
+      "reason": "Kernel captured",
+      "avoidable_threats": []
+    }
+  ],
+  "input_sha256": "c0f3864c6fcc81a46b8462cc95372211990953b198e11f2dc30f8748f423773a",
+  "teacher_sha256": "5a370f5cea2a41834eadd22e8b312b4104c73c7041afeb394d5780b6886d9a6f",
+  "teacher_simulations": 600
+}

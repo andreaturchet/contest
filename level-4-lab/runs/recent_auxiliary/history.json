@@ -1,0 +1,77 @@
+[
+  {
+    "step": 100,
+    "baseline_wins": 12,
+    "anchor_wins": 16,
+    "validation_policy_ce": 1.9397661685943604,
+    "validation_value_mse": 0.6031239032745361,
+    "seconds": 27.207155834068544,
+    "auxiliary_loss": 0.6713783740997314,
+    "selected": true
+  },
+  {
+    "step": 200,
+    "baseline_wins": 16,
+    "anchor_wins": 14,
+    "validation_policy_ce": 1.9175794124603271,
+    "validation_value_mse": 0.599696159362793,
+    "seconds": 52.53956433408894,
+    "auxiliary_loss": 0.5783868432044983,
+    "selected": true
+  },
+  {
+    "step": 300,
+    "baseline_wins": 17,
+    "anchor_wins": 12,
+    "validation_policy_ce": 1.91502046585083,
+    "validation_value_mse": 0.6095232367515564,
+    "seconds": 77.85260329209268,
+    "auxiliary_loss": 0.5166516900062561
+  },
+  {
+    "step": 400,
+    "baseline_wins": 17,
+    "anchor_wins": 6,
+    "validation_policy_ce": 1.9205305576324463,
+    "validation_value_mse": 0.5994288325309753,
+    "seconds": 103.49268629204016,
+    "auxiliary_loss": 0.6810447573661804
+  },
+  {
+    "step": 500,
+    "baseline_wins": 20,
+    "anchor_wins": 13,
+    "validation_policy_ce": 1.9182475805282593,
+    "validation_value_mse": 0.6009268760681152,
+    "seconds": 132.5574797920417,
+    "auxiliary_loss": 0.6390760540962219,
+    "selected": true
+  },
+  {
+    "step": 600,
+    "baseline_wins": 18,
+    "anchor_wins": 14,
+    "validation_policy_ce": 1.9231841564178467,
+    "validation_value_mse": 0.5864267945289612,
+    "seconds": 158.2358678340679,
+    "auxiliary_loss": 0.5999189615249634
+  },
+  {
+    "step": 700,
+    "baseline_wins": 18,
+    "anchor_wins": 10,
+    "validation_policy_ce": 1.9108814001083374,
+    "validation_value_mse": 0.5733645558357239,
+    "seconds": 183.51781758398283,
+    "auxiliary_loss": 0.6082646250724792
+  },
+  {
+    "step": 800,
+    "baseline_wins": 19,
+    "anchor_wins": 10,
+    "validation_policy_ce": 1.9094640016555786,
+    "validation_value_mse": 0.6027445197105408,
+    "seconds": 211.48062183405273,
+    "auxiliary_loss": 0.44820496439933777
+  }
+]

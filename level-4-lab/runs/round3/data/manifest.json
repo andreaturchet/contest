@@ -1,0 +1,16 @@
+{
+  "training": {
+    "samples": 1114,
+    "mean_abs_outcome_search_difference": 0.7329880386209316
+  },
+  "validation": {
+    "samples": 204,
+    "mean_abs_outcome_search_difference": 0.5607326438047868
+  },
+  "teacher_sha256": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1",
+  "simulations": 600,
+  "unique_positions": 1241,
+  "seconds": 116.74329420807771,
+  "value_definition": "Root-team q = sum(root.W.values()) / sum(root.N.values()); no extra sign flip",
+  "split": "Preserved whole-match training/validation files from round 2; shared positions reuse search"
+}

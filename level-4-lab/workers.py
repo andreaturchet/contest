@@ -51,7 +51,7 @@ def actor(worker_id,jobs,scene,simulations,requests,responses,results,opponents)
         for game_i,seed in jobs:
             # A third of episodes meet archived opponents to reduce self-play
             # specialization; the remaining episodes use the current model.
-            opp=opponents[seed%len(opponents)] if opponents and seed%3==0 else None
+            opp=opponents[(seed//3)%len(opponents)] if opponents and seed%3==0 else None
             samples=episode(ev,scene,seed,simulations,opp)
             results.put(("game",worker_id,game_i,samples))
         results.put(("done",worker_id))

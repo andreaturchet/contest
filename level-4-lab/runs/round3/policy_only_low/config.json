@@ -1,0 +1,8 @@
+{
+  "lr": 0.0001,
+  "kl": 0.1,
+  "kl_direction": "anchor",
+  "weight_decay": 0.0001,
+  "steps": 600,
+  "run": "runs/round3/policy_only_low"
+}

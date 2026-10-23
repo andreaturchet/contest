@@ -1,0 +1,256 @@
+{
+  "first_screen": [
+    {
+      "name": "bce_reanalysis_soft",
+      "step": 600,
+      "path": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/round3/bce_reanalysis_soft/step_600.onnx",
+      "screen": {
+        "model_a": "runs/round3/bce_reanalysis_soft/step_600.onnx",
+        "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/candidate_v2.onnx",
+        "games": 48,
+        "wins": 31,
+        "win_rate": 0.6458333333333334,
+        "wilson_95": [
+          0.504390570103431,
+          0.7656635587439515
+        ],
+        "seed": 220000000,
+        "simulations": 100,
+        "seconds": 24.36308791593183,
+        "sha256_a": "4d0dcb30f64751f974c80c12fe1dd438b088d333e18f1e6597803e7121c628e3",
+        "sha256_b": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1",
+        "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+        "cyan_wins": 15,
+        "magenta_wins": 16
+      }
+    },
+    {
+      "name": "mse_original",
+      "step": 300,
+      "path": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/round3/mse_original/step_300.onnx",
+      "screen": {
+        "model_a": "runs/round3/mse_original/step_300.onnx",
+        "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/candidate_v2.onnx",
+        "games": 48,
+        "wins": 30,
+        "win_rate": 0.625,
+        "wilson_95": [
+          0.4836276351921527,
+          0.747847332391318
+        ],
+        "seed": 220000000,
+        "simulations": 100,
+        "seconds": 24.15820470894687,
+        "sha256_a": "e7278c18c27056358a31108187bd04d1feff6700f90016d22af01041329937dd",
+        "sha256_b": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1",
+        "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+        "cyan_wins": 15,
+        "magenta_wins": 15
+      }
+    },
+    {
+      "name": "bce_original",
+      "step": 600,
+      "path": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/round3/bce_original/step_600.onnx",
+      "screen": {
+        "model_a": "runs/round3/bce_original/step_600.onnx",
+        "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/candidate_v2.onnx",
+        "games": 48,
+        "wins": 30,
+        "win_rate": 0.625,
+        "wilson_95": [
+          0.4836276351921527,
+          0.747847332391318
+        ],
+        "seed": 220000000,
+        "simulations": 100,
+        "seconds": 26.75483941694256,
+        "sha256_a": "5a70ca8e110eccd2a001a3661d55f8b56610b809f39b2c7453d5a9df0ac76d39",
+        "sha256_b": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1",
+        "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+        "cyan_wins": 12,
+        "magenta_wins": 18
+      }
+    },
+    {
+      "name": "bce_reanalysis_soft",
+      "step": 300,
+      "path": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/round3/bce_reanalysis_soft/step_300.onnx",
+      "screen": {
+        "model_a": "runs/round3/bce_reanalysis_soft/step_300.onnx",
+        "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/candidate_v2.onnx",
+        "games": 48,
+        "wins": 29,
+        "win_rate": 0.6041666666666666,
+        "wilson_95": [
+          0.4631040849254725,
+          0.7297917213940862
+        ],
+        "seed": 220000000,
+        "simulations": 100,
+        "seconds": 29.770775999990292,
+        "sha256_a": "3c94dffd93af54960c0e153799b320e72987b8469d8d85a0dae1887007b85248",
+        "sha256_b": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1",
+        "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+        "cyan_wins": 15,
+        "magenta_wins": 14
+      }
+    },
+    {
+      "name": "mse_reanalysis",
+      "step": 300,
+      "path": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/round3/mse_reanalysis/step_300.onnx",
+      "screen": {
+        "model_a": "runs/round3/mse_reanalysis/step_300.onnx",
+        "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/candidate_v2.onnx",
+        "games": 48,
+        "wins": 29,
+        "win_rate": 0.6041666666666666,
+        "wilson_95": [
+          0.4631040849254725,
+          0.7297917213940862
+        ],
+        "seed": 220000000,
+        "simulations": 100,
+        "seconds": 28.078305874951184,
+        "sha256_a": "64ffaa91f73d754bfa6349220779cd215101ad4ae1300e69a6e827f036496cac",
+        "sha256_b": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1",
+        "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+        "cyan_wins": 17,
+        "magenta_wins": 12
+      }
+    },
+    {
+      "name": "mse_original",
+      "step": 600,
+      "path": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/round3/mse_original/step_600.onnx",
+      "screen": {
+        "model_a": "runs/round3/mse_original/step_600.onnx",
+        "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/candidate_v2.onnx",
+        "games": 48,
+        "wins": 27,
+        "win_rate": 0.5625,
+        "wilson_95": [
+          0.42275017419827776,
+          0.6929873095934576
+        ],
+        "seed": 220000000,
+        "simulations": 100,
+        "seconds": 25.221678541973233,
+        "sha256_a": "9ac9fbe524bf64bedcf1b29a9a1bb53122e0c3320feda5c313eefb6fdbe51d65",
+        "sha256_b": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1",
+        "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+        "cyan_wins": 12,
+        "magenta_wins": 15
+      }
+    },
+    {
+      "name": "bce_original",
+      "step": 300,
+      "path": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/round3/bce_original/step_300.onnx",
+      "screen": {
+        "model_a": "runs/round3/bce_original/step_300.onnx",
+        "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/candidate_v2.onnx",
+        "games": 48,
+        "wins": 25,
+        "win_rate": 0.5208333333333334,
+        "wilson_95": [
+          0.3832923230334281,
+          0.6552868382304838
+        ],
+        "seed": 220000000,
+        "simulations": 100,
+        "seconds": 23.391721875057556,
+        "sha256_a": "fb9c46c0795062d4bf658be16d4effdfc378a53536293e9dd93b59a2ff69423a",
+        "sha256_b": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1",
+        "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+        "cyan_wins": 13,
+        "magenta_wins": 12
+      }
+    },
+    {
+      "name": "bce_reanalysis",
+      "step": 600,
+      "path": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/round3/bce_reanalysis/step_600.onnx",
+      "screen": {
+        "model_a": "runs/round3/bce_reanalysis/step_600.onnx",
+        "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/candidate_v2.onnx",
+        "games": 48,
+        "wins": 25,
+        "win_rate": 0.5208333333333334,
+        "wilson_95": [
+          0.3832923230334281,
+          0.6552868382304838
+        ],
+        "seed": 220000000,
+        "simulations": 100,
+        "seconds": 27.45620204100851,
+        "sha256_a": "7c32dfee701586d435f637a049b8b724c5938cb51c7d2c17af4ddf3877cdd2f0",
+        "sha256_b": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1",
+        "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+        "cyan_wins": 15,
+        "magenta_wins": 10
+      }
+    },
+    {
+      "name": "mse_reanalysis",
+      "step": 600,
+      "path": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/round3/mse_reanalysis/step_600.onnx",
+      "screen": {
+        "model_a": "runs/round3/mse_reanalysis/step_600.onnx",
+        "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/candidate_v2.onnx",
+        "games": 48,
+        "wins": 25,
+        "win_rate": 0.5208333333333334,
+        "wilson_95": [
+          0.3832923230334281,
+          0.6552868382304838
+        ],
+        "seed": 220000000,
+        "simulations": 100,
+        "seconds": 26.57611187500879,
+        "sha256_a": "9502e6db08df66d5c312586968ebde8c7e51144f6653064616b4d3a86ff3631a",
+        "sha256_b": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1",
+        "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+        "cyan_wins": 16,
+        "magenta_wins": 9
+      }
+    },
+    {
+      "name": "bce_reanalysis",
+      "step": 300,
+      "path": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/round3/bce_reanalysis/step_300.onnx",
+      "screen": {
+        "model_a": "runs/round3/bce_reanalysis/step_300.onnx",
+        "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/candidate_v2.onnx",
+        "games": 48,
+        "wins": 24,
+        "win_rate": 0.5,
+        "wilson_95": [
+          0.36389330502679385,
+          0.6361066949732062
+        ],
+        "seed": 220000000,
+        "simulations": 100,
+        "seconds": 25.15582758304663,
+        "sha256_a": "22ed3d88dea68cc4259426e6313e4d4af8165abcbb703858d1dfacfd5f18de11",
+        "sha256_b": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1",
+        "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+        "cyan_wins": 15,
+        "magenta_wins": 9
+      }
+    }
+  ],
+  "finalist_names": [
+    "bce_reanalysis_soft",
+    "mse_original",
+    "bce_original"
+  ],
+  "second_screen_seed": 230000000,
+  "older_screen_seed": 231000000,
+  "final_v2_seed": 240000000,
+  "final_original_seed": 250000000,
+  "final_earlier_seed": 260000000,
+  "selection_score": "v2 wins/96 + 0.25 * earlier wins/64",
+  "promotion": "Fresh 600 vs v2 and 200 vs original Wilson lower > 0.5; earlier 200 point estimate >= 0.5"
+}

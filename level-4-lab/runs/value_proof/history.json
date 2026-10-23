@@ -1,0 +1,69 @@
+[
+  {
+    "step": 100,
+    "holdout": {
+      "policy_hit_rate": 0.6716867469879518,
+      "policy_n": 332,
+      "value_sign_rate": 0.815,
+      "n": 400
+    },
+    "policy_loss": 0.0,
+    "value_loss": 0.2750920057296753,
+    "anchor_loss": 0.0,
+    "seconds": 2.2314629580359906,
+    "selected": true
+  },
+  {
+    "step": 200,
+    "holdout": {
+      "policy_hit_rate": 0.6716867469879518,
+      "policy_n": 332,
+      "value_sign_rate": 0.8125,
+      "n": 400
+    },
+    "policy_loss": 0.0,
+    "value_loss": 0.37009337544441223,
+    "anchor_loss": 0.0,
+    "seconds": 4.354504792019725
+  },
+  {
+    "step": 300,
+    "holdout": {
+      "policy_hit_rate": 0.6716867469879518,
+      "policy_n": 332,
+      "value_sign_rate": 0.8175,
+      "n": 400
+    },
+    "policy_loss": 0.0,
+    "value_loss": 0.22422032058238983,
+    "anchor_loss": 0.0,
+    "seconds": 6.570090708089992,
+    "selected": true
+  },
+  {
+    "step": 400,
+    "holdout": {
+      "policy_hit_rate": 0.6716867469879518,
+      "policy_n": 332,
+      "value_sign_rate": 0.8175,
+      "n": 400
+    },
+    "policy_loss": 0.0,
+    "value_loss": 0.2537824213504791,
+    "anchor_loss": 0.0,
+    "seconds": 8.711490583023988
+  },
+  {
+    "step": 500,
+    "holdout": {
+      "policy_hit_rate": 0.6716867469879518,
+      "policy_n": 332,
+      "value_sign_rate": 0.8125,
+      "n": 400
+    },
+    "policy_loss": 0.0,
+    "value_loss": 0.2756463289260864,
+    "anchor_loss": 0.0,
+    "seconds": 10.896215917076916
+  }
+]

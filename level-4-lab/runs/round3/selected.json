@@ -1,0 +1,66 @@
+{
+  "selection": {
+    "name": "bce_original",
+    "step": 600,
+    "path": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/round3/bce_original/step_600.onnx",
+    "screen": {
+      "model_a": "runs/round3/bce_original/step_600.onnx",
+      "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/candidate_v2.onnx",
+      "games": 48,
+      "wins": 30,
+      "win_rate": 0.625,
+      "wilson_95": [
+        0.4836276351921527,
+        0.747847332391318
+      ],
+      "seed": 220000000,
+      "simulations": 100,
+      "seconds": 26.75483941694256,
+      "sha256_a": "5a70ca8e110eccd2a001a3661d55f8b56610b809f39b2c7453d5a9df0ac76d39",
+      "sha256_b": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1",
+      "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+      "cyan_wins": 12,
+      "magenta_wins": 18
+    },
+    "v2_screen": {
+      "model_a": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/round3/bce_original/step_600.onnx",
+      "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/candidate_v2.onnx",
+      "games": 96,
+      "wins": 58,
+      "win_rate": 0.6041666666666666,
+      "wilson_95": [
+        0.5041511204834945,
+        0.6961664653794899
+      ],
+      "seed": 230000000,
+      "simulations": 100,
+      "seconds": 48.84428074990865,
+      "sha256_a": "5a70ca8e110eccd2a001a3661d55f8b56610b809f39b2c7453d5a9df0ac76d39",
+      "sha256_b": "d385f252713ed3b0d37320d40c4a4f3d4609789b9e1f1908dbdf7d136f8e7ef1",
+      "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+      "cyan_wins": 27,
+      "magenta_wins": 31
+    },
+    "earlier_screen": {
+      "model_a": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/round3/bce_original/step_600.onnx",
+      "model_b": "/Users/ciwrl/Downloads/contest/level-4-lab/candidates/selfplay_129_of_200.onnx",
+      "games": 64,
+      "wins": 42,
+      "win_rate": 0.65625,
+      "wilson_95": [
+        0.5340364020991819,
+        0.7607685792155665
+      ],
+      "seed": 231000000,
+      "simulations": 100,
+      "seconds": 35.83703420800157,
+      "sha256_a": "5a70ca8e110eccd2a001a3661d55f8b56610b809f39b2c7453d5a9df0ac76d39",
+      "sha256_b": "2bb111729d61a8474e317661af98a72ceb3827fa76602dc9e0083413fafe9415",
+      "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+      "cyan_wins": 19,
+      "magenta_wins": 23
+    },
+    "score": 0.7682291666666666
+  },
+  "sha256": "5a70ca8e110eccd2a001a3661d55f8b56610b809f39b2c7453d5a9df0ac76d39"
+}

@@ -1,0 +1,8 @@
+{
+  "lr": 0.0003,
+  "kl": 0.5,
+  "kl_direction": "current",
+  "weight_decay": 0.0,
+  "steps": 600,
+  "run": "runs/round3/policy_only_claude"
+}

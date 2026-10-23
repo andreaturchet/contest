@@ -1,0 +1,71 @@
+[
+  {
+    "name": "endgame_3.0_direct_False",
+    "path": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/endgame/endgame_3.0_direct_False.onnx",
+    "screen": {
+      "model_a": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/endgame/endgame_3.0_direct_False.onnx",
+      "model_b": "candidate.onnx",
+      "games": 24,
+      "wins": 9,
+      "win_rate": 0.375,
+      "wilson_95": [
+        0.21159367559548778,
+        0.5729003755732572
+      ],
+      "seed": 60000000,
+      "simulations": 100,
+      "seconds": 11.341067042085342,
+      "sha256_a": "d0a83aa5daeab8ef93df9c24ef57e1619e4a73eac3c82f743ed176078af0f8e4",
+      "sha256_b": "5a370f5cea2a41834eadd22e8b312b4104c73c7041afeb394d5780b6886d9a6f",
+      "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+      "cyan_wins": 3,
+      "magenta_wins": 6
+    }
+  },
+  {
+    "name": "endgame_9.0_direct_False",
+    "path": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/endgame/endgame_9.0_direct_False.onnx",
+    "screen": {
+      "model_a": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/endgame/endgame_9.0_direct_False.onnx",
+      "model_b": "candidate.onnx",
+      "games": 24,
+      "wins": 9,
+      "win_rate": 0.375,
+      "wilson_95": [
+        0.21159367559548778,
+        0.5729003755732572
+      ],
+      "seed": 60000000,
+      "simulations": 100,
+      "seconds": 11.221485249930993,
+      "sha256_a": "398cf4f217b9c9441326c99d1ef147948178cab3d75e35abd5bb84392cb70fbf",
+      "sha256_b": "5a370f5cea2a41834eadd22e8b312b4104c73c7041afeb394d5780b6886d9a6f",
+      "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+      "cyan_wins": 3,
+      "magenta_wins": 6
+    }
+  },
+  {
+    "name": "endgame_6.0_direct_True",
+    "path": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/endgame/endgame_6.0_direct_True.onnx",
+    "screen": {
+      "model_a": "/Users/ciwrl/Downloads/contest/level-4-lab/runs/endgame/endgame_6.0_direct_True.onnx",
+      "model_b": "candidate.onnx",
+      "games": 24,
+      "wins": 9,
+      "win_rate": 0.375,
+      "wilson_95": [
+        0.21159367559548778,
+        0.5729003755732572
+      ],
+      "seed": 60000000,
+      "simulations": 100,
+      "seconds": 11.949146750033833,
+      "sha256_a": "ad06cfc99570f119b8ac17f5b3cb48fc81728892c44ad00f52fc851465d36c10",
+      "sha256_b": "5a370f5cea2a41834eadd22e8b312b4104c73c7041afeb394d5780b6886d9a6f",
+      "scene_sha256": "5489fce67399e60fa5d291d249cb4e524dd90705da5221cb9e2f1a690338270f",
+      "cyan_wins": 3,
+      "magenta_wins": 6
+    }
+  }
+]

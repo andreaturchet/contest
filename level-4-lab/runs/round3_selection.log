@@ -1,0 +1,4 @@
+2026-10-23 17:49:23.692 Python[42752:19599312] 2026-10-23 17:49:23.692895 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+FINALIST bce_reanalysis_soft 600 48 /96 v2 27 /64 earlier
+FINALIST mse_original 300 39 /96 v2 41 /64 earlier
+FINALIST bce_original 600 58 /96 v2 42 /64 earlier

@@ -1,0 +1,21 @@
+2026-10-23 17:24:05.018 Python[37827:19557348] 2026-10-23 17:24:05.018725 [W:onnxruntime:Default, telemetry_1ds.cc:600 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+12746 CYAN metadata {'CYAN': [16, 16], 'MAGENTA': [8, 14]}
+12856 MAGENTA metadata {'CYAN': [10, 20], 'MAGENTA': [20, 20]}
+13002 CYAN metadata {'CYAN': [14, 14], 'MAGENTA': [2, 12]}
+13127 CYAN metadata {'CYAN': [20, 20], 'MAGENTA': [6, 18]}
+13160 MAGENTA metadata {'CYAN': [10, 14], 'MAGENTA': [12, 12]}
+13362 MAGENTA metadata {'CYAN': [10, 24], 'MAGENTA': [22, 22]}
+13447 CYAN metadata {'CYAN': [18, 18], 'MAGENTA': [8, 18]}
+13512 CYAN metadata {'CYAN': [16, 16], 'MAGENTA': [6, 14]}
+13554 MAGENTA metadata {'CYAN': [11, 20], 'MAGENTA': [18, 18]}
+13822 MAGENTA metadata {'CYAN': [10, 14], 'MAGENTA': [14, 14]}
+13867 CYAN metadata {'CYAN': [24, 24], 'MAGENTA': [9, 23]}
+14058 MAGENTA inferred {'CYAN': [8, 20], 'MAGENTA': [20, 20]}
+14235 CYAN inferred {'CYAN': [10, 10], 'MAGENTA': [7, 10]}
+14372 MAGENTA inferred {'CYAN': [10, 20], 'MAGENTA': [18, 18]}
+14437 CYAN inferred {'CYAN': [20, 20], 'MAGENTA': [11, 18]}
+14663 MAGENTA inferred {'CYAN': [7, 10], 'MAGENTA': [8, 8]}
+14772 CYAN inferred {'CYAN': [12, 12], 'MAGENTA': [4, 10]}
+14885 MAGENTA inferred {'CYAN': [5, 11], 'MAGENTA': [10, 10]}
+14912 CYAN inferred {'CYAN': [20, 20], 'MAGENTA': [11, 20]}
+Preserved 19 replays; side known/inferred: 19 ambiguous: 0

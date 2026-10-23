@@ -1,0 +1,26 @@
+[
+  {
+    "input": "zero",
+    "raw_min": 0.0326562225818634,
+    "raw_max": 0.0326562225818634,
+    "raw_outside": 0,
+    "bounded_min": 0.0326562225818634,
+    "bounded_max": 0.0326562225818634
+  },
+  {
+    "input": "ones",
+    "raw_min": 1.0000001192092896,
+    "raw_max": 1.0000001192092896,
+    "raw_outside": 1,
+    "bounded_min": 1.0,
+    "bounded_max": 1.0
+  },
+  {
+    "input": "mixed16",
+    "raw_min": -1.0,
+    "raw_max": 1.0,
+    "raw_outside": 0,
+    "bounded_min": -1.0,
+    "bounded_max": 1.0
+  }
+]

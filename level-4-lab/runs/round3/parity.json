@@ -1,0 +1,20 @@
+[
+  {
+    "batch": 1,
+    "max_logit_error": 1.0251998901367188e-05,
+    "max_legal_probability_error": 2.4727805617713594e-07,
+    "max_value_error": 5.960464477539063e-08
+  },
+  {
+    "batch": 8,
+    "max_logit_error": 8.58306884765625e-06,
+    "max_legal_probability_error": 5.876560524864516e-07,
+    "max_value_error": 1.1920928955078125e-07
+  },
+  {
+    "batch": 16,
+    "max_logit_error": 1.621246337890625e-05,
+    "max_legal_probability_error": 6.576790691215084e-07,
+    "max_value_error": 2.384185791015625e-07
+  }
+]

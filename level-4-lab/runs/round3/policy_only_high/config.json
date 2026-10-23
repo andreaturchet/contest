@@ -1,0 +1,6 @@
+{
+  "lr": 0.0005,
+  "kl": 0.1,
+  "steps": 900,
+  "run": "runs/round3/policy_only_high"
+}

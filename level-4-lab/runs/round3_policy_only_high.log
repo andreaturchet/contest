@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/ciwrl/Downloads/contest/level-4-lab/policy_only_round3.py", line 73, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/ciwrl/Downloads/contest/level-4-lab/policy_only_round3.py", line 56, in main
+    kl=(oldp*(oldp.clamp_min(1e-20).log()-logp)).sum(1).mean()
+        ~~~~^^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RuntimeError: Inference tensors cannot be saved for backward. Please do not use Tensors created in inference mode in computation tracked by autograd. To work around this, you can make a clone to get a normal tensor and use it in autograd, or use `torch.no_grad()` instead of `torch.inference_mode()`.
